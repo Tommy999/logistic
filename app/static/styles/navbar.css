@@ -1,0 +1,85 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin:0px;
+    padding: 0px;
+}
+
+.navbar{
+
+    height: 50%;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0px;
+
+}
+
+.first_nav{
+
+
+    height: 50%;
+    background-image: url('../images/globe.jpg');
+
+
+}
+.second_nav{
+
+    border-bottom: 4px solid #0f0f0f;
+    border-top: 4px solid #0f0f0f;
+    padding: 0px;
+    /*background-color: #eceeeb;*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9dd53a+0,a1d54f+6,7cbc0a+74 */
+    background: #9dd53a; /* Old browsers */
+    background: -moz-linear-gradient(top,  #9dd53a 0%, #a1d54f 6%, #7cbc0a 74%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #9dd53a 0%,#a1d54f 6%,#7cbc0a 74%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #9dd53a 0%,#a1d54f 6%,#7cbc0a 74%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 ); /* IE6-9 */
+
+
+}
+.im_div{
+    border-bottom: 4px solid #505050;
+    border-right: 4px solid #505050;
+    border-radius: 2px;
+    width: 27.75%;
+
+}
+#menu_list{
+
+    margin: 5px;
+
+}
+#menu_list>li{
+    display: inline-block; /* Строчно-блочные элементы */
+    background: #a5b20e; /* Цвет фона */
+    margin-right: 3px; /* Расстояние между пунктами меню */
+    /*
+   -webkit-transform: skewX(-30deg);
+   -moz-transform: skewX(-30deg);
+   -o-transform: skewX(-30deg);
+   -ms-transform: skewX(-30deg);
+   transform: skewX(-30deg);
+    */
+}
+li>a{
+   color: #434618; /* Цвет ссылок */
+    display: block; /* Блочный элемент */
+    padding: 5px 15px; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    /*
+    -webkit-transform: skewX(30deg);
+    -moz-transform: skewX(30deg);
+    -o-transform: skewX(30deg);
+    -ms-transform: skewX(30deg);
+    transform: skewX(30deg);
+    */
+    border: 2px solid #000000;
+    border-radius: 4px;
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
+    font-size: 11pt;
+
+}
+#menu_list>li:hover {
+    background: #333; /* Цвет фона при наведении курсора мыши */
+}
