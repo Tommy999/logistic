@@ -1,0 +1,51 @@
+{% include "base.html" %}
+
+
+{% block navbar %}
+<!--
+<div id="slideshow">
+
+    <div>
+        <img src="{{ url_for('static', filename='images/cars/test/1.jpg') }}">
+    </div>
+    <div>
+        <img src="{{ url_for('static', filename='images//cars/test/2.jpg') }}">
+    </div>
+
+
+</div>
+-->
+<div class="raw_naw">
+
+    <!--<div class="first_nav">-->
+    <!--<div class="im_div"><img src="{{ url_for('static', filename='images/logo.jpg') }}" ></div>-->
+
+
+    <!--</div>-->
+
+    <div id="slideshow">
+
+    </div>
+
+    <div>
+        <div id="image"></div>
+        <ul id="menu_list">
+
+            <li><button>О Компании</button></li>
+            <li><button>Услуги</button></li>
+            <li><button>Запрос</button></li>
+            <li><button>География перевоок</button></li>
+            <li><button>Полезная информация</button></li>
+            <li><button>Контакты</button></li>
+
+        </ul>
+    </div>
+
+</div>
+
+{% endblock %}
+
+<div id="content">
+    {% block page_content %}
+    {% endblock %}
+</div>

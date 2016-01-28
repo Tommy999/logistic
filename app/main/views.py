@@ -11,3 +11,9 @@ def index():
 
     return render_template('index.html')
 
+
+@main.route('/index_raw', methods=['GET', 'POST'])
+def index_raw():
+
+    return render_template('index_raw.html')
+

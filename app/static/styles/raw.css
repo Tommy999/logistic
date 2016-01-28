@@ -1,0 +1,77 @@
+html {
+    height: 99%;
+    width: 99%;
+    margin:0px;
+    padding: 0px;
+}
+body {
+    border: 1px solid #000000;
+    height: 100%;
+    width: 100%;
+}
+
+
+.raw_naw{
+
+    border: 1px solid #000000;
+
+    height: 45%;
+    margin-top:0.5%;
+    margin-right:0.5%;
+    margin-left:0.5%;
+    margin-bottom:0px;
+
+}
+
+#slideshow{
+
+    border: 1px solid #000000;
+    height: 50%;
+    width: 97%;
+    margin:0.5%;
+
+}
+#image{
+
+    height: 34px;
+    width: 360px;
+    border: 1px solid #000000;
+    margin-left:1%;
+    margin-top:0px;
+
+}
+#menu_list{
+
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid #000000;
+}
+#menu_list>li{
+    display: inline-block; /* Строчно-блочные элементы */
+    background: #ececec; /* Цвет фона */
+    margin-right: 3%;
+    margin-left: 3.5%;
+
+
+
+    /* Расстояние между пунктами меню */
+
+    /*
+   -webkit-transform: skewX(-30deg);
+   -moz-transform: skewX(-30deg);
+   -o-transform: skewX(-30deg);
+   -ms-transform: skewX(-30deg);
+   transform: skewX(-30deg);
+    */
+}
+#content{
+    width:90%;
+    height: 54%;
+    margin-top:0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+
+
+}
