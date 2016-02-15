@@ -5,16 +5,23 @@
       <change type="MOVED" beforePath="$PROJECT_DIR$/../flask_chat/app/static/containers.css" afterPath="$PROJECT_DIR$/../flask_chat/app/static/styles/containers.css" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/../flask_chat/app/static/index.css" afterPath="$PROJECT_DIR$/../flask_chat/app/static/styles/index.css" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/../flask_chat/app/static/register.css" afterPath="$PROJECT_DIR$/../flask_chat/app/static/styles/register.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../openmap/open_map/templates/angular.html" afterPath="$PROJECT_DIR$/../openmap/open_map/templates/angular.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../flask_chat/app/templates/base.html" afterPath="$PROJECT_DIR$/../flask_chat/app/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../flask_chat/venv/lib/python2.7/site-packages/flask_bootstrap/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/../flask_chat/venv/lib/python2.7/site-packages/flask_bootstrap/static/css/bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../flask_chat/venv/lib/python2.7/site-packages/flask_bootstrap/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/../flask_chat/venv/lib/python2.7/site-packages/flask_bootstrap/static/css/bootstrap.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../flask_chat/.idea/flask_chat.iml" afterPath="$PROJECT_DIR$/../flask_chat/.idea/flask_chat.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../flask_chat/hello.py" afterPath="$PROJECT_DIR$/../flask_chat/hello.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../openmap/open_map/templates/index.html" afterPath="$PROJECT_DIR$/../openmap/open_map/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../flask_chat/app/models.py" afterPath="$PROJECT_DIR$/../flask_chat/app/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../flask_chat/.idea/modules.xml" afterPath="$PROJECT_DIR$/../flask_chat/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../openmap/.idea/openmap.iml" afterPath="$PROJECT_DIR$/../openmap/.idea/openmap.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../flask_chat/app/profile/templates/profile.html" afterPath="$PROJECT_DIR$/../flask_chat/app/profile/templates/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../openmap/open_map/templates/test_2.html" afterPath="$PROJECT_DIR$/../openmap/open_map/templates/test_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../openmap/open_map/urls.py" afterPath="$PROJECT_DIR$/../openmap/open_map/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../flask_chat/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../flask_chat/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../openmap/open_map/views.py" afterPath="$PROJECT_DIR$/../openmap/open_map/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../flask_chat/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../flask_chat/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../openmap/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../openmap/.idea/workspace.xml" />
     </list>
     <ignored path="logistic.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,35 +42,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="navbar.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/static/styles/navbar.css">
+      <file leaf-file-name="index_raw_5.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/index_raw_5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26903552">
-              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="80" selection-end-column="1" />
+            <state vertical-scroll-proportion="-13.62963">
+              <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
               <folding>
-                <element signature="e#184#248#0" expanded="false" />
-                <element signature="e#261#1106#0" expanded="false" />
+                <element signature="n#div#4;n#!!top" expanded="false" />
+                <element signature="n#script#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="raw.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/static/styles/raw.css">
+      <file leaf-file-name="raw_5.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/static/styles/raw_5.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index_raw.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/index_raw.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.888889">
-              <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-              <folding />
+            <state vertical-scroll-proportion="-0.2741117">
+              <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="8" />
+              <folding>
+                <element signature="e#5#69#0" expanded="false" />
+                <element signature="e#76#140#0" expanded="false" />
+                <element signature="e#152#455#0" expanded="false" />
+                <element signature="e#465#805#0" expanded="false" />
+                <element signature="e#817#1541#0" expanded="false" />
+                <element signature="e#1549#1623#0" expanded="false" />
+                <element signature="e#1633#1864#0" expanded="false" />
+                <element signature="e#1878#1933#0" expanded="false" />
+                <element signature="e#1943#2018#0" expanded="false" />
+                <element signature="e#2031#2128#0" expanded="false" />
+                <element signature="e#2140#2358#0" expanded="false" />
+                <element signature="e#2371#3586#0" expanded="false" />
+                <element signature="e#3596#3658#0" expanded="false" />
+                <element signature="e#3669#4305#0" expanded="false" />
+                <element signature="e#4317#4481#0" expanded="false" />
+                <element signature="e#4496#4886#0" expanded="false" />
+                <element signature="e#4894#5064#0" expanded="false" />
+                <element signature="e#5077#5521#0" expanded="false" />
+                <element signature="e#5532#5947#0" expanded="false" />
+                <element signature="e#5962#6380#0" expanded="false" />
+                <element signature="e#6404#7207#0" expanded="false" />
+                <element signature="e#7215#7241#0" expanded="false" />
+                <element signature="e#7250#7322#0" expanded="false" />
+                <element signature="e#7338#7524#0" expanded="false" />
+                <element signature="e#7546#7707#0" expanded="false" />
+                <element signature="e#7718#7790#0" expanded="false" />
+                <element signature="e#7800#8047#0" expanded="false" />
+                <element signature="e#8058#8130#0" expanded="false" />
+                <element signature="e#8146#8352#0" expanded="false" />
+                <element signature="e#8363#8409#0" expanded="false" />
+                <element signature="e#8416#8557#0" expanded="false" />
+                <element signature="e#8566#8633#0" expanded="false" />
+                <element signature="e#8640#8724#0" expanded="false" />
+                <element signature="e#8730#8815#0" expanded="false" />
+                <element signature="e#8825#8929#0" expanded="false" />
+                <element signature="e#8944#8985#0" expanded="false" />
+                <element signature="e#9002#9047#0" expanded="false" />
+                <element signature="e#9062#9817#0" expanded="false" />
+                <element signature="e#9834#10054#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,13 +112,13 @@
       <list>
         <option value="Python Script" />
         <option value="HTML4 File" />
-        <option value="Html" />
         <option value="CSS File" />
+        <option value="Html" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../flask_chat" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../openmap" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -100,11 +137,25 @@
         <option value="$PROJECT_DIR$/app/static/scripts/forms.js" />
         <option value="$PROJECT_DIR$/app/static/styles/old.css" />
         <option value="$PROJECT_DIR$/app/templates/skeleton.html" />
-        <option value="$PROJECT_DIR$/app/static/styles/navbar.css" />
-        <option value="$PROJECT_DIR$/app/main/views.py" />
-        <option value="$PROJECT_DIR$/app/templates/base.html" />
+        <option value="$PROJECT_DIR$/../openmap/open_map/urls.py" />
+        <option value="$PROJECT_DIR$/../openmap/open_map/views.py" />
+        <option value="$PROJECT_DIR$/../flask_chat/app/templates/base.html" />
         <option value="$PROJECT_DIR$/app/templates/index_raw.html" />
         <option value="$PROJECT_DIR$/app/static/styles/raw.css" />
+        <option value="$PROJECT_DIR$/app/templates/inex_raw_2.html" />
+        <option value="$PROJECT_DIR$/app/static/styles/raw_w.css" />
+        <option value="$PROJECT_DIR$/app/templates/index_raw_2.html" />
+        <option value="$PROJECT_DIR$/app/static/styles/raw_2.css" />
+        <option value="$PROJECT_DIR$/../openmap/open_map/templates/angular.html" />
+        <option value="$PROJECT_DIR$/app/static/styles/navbar.css" />
+        <option value="$PROJECT_DIR$/app/templates/index_raw_3.html" />
+        <option value="$PROJECT_DIR$/app/static/styles/raw_3.css" />
+        <option value="$PROJECT_DIR$/app/templates/index_raw_4.html" />
+        <option value="$PROJECT_DIR$/app/static/styles/raw_4.css" />
+        <option value="$PROJECT_DIR$/app/main/views.py" />
+        <option value="$PROJECT_DIR$/app/templates/index_raw_5.html" />
+        <option value="$PROJECT_DIR$/app/templates/base.html" />
+        <option value="$PROJECT_DIR$/app/static/styles/raw_5.css" />
       </list>
     </option>
   </component>
@@ -117,9 +168,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -212,46 +263,6 @@
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logistic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logistic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logistic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logistic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -260,7 +271,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -269,6 +280,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/static/styles" />
+      <recent name="$PROJECT_DIR$/../openmap/open_map/static/wps" />
       <recent name="$PROJECT_DIR$/app/static" />
       <recent name="$PROJECT_DIR$/app/templates" />
       <recent name="$PROJECT_DIR$/templates" />
@@ -305,6 +318,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
   </component>
@@ -322,7 +341,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -335,15 +354,35 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25899842" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -364,129 +403,7 @@
     <entry file="file://$PROJECT_DIR$/app/static/styles/navbar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#184#248#0" expanded="false" />
-            <element signature="e#261#1106#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/skeleton.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="98" selection-start-line="25" selection-start-column="98" selection-end-line="25" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/skeleton.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/styles/navbar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#184#248#0" expanded="false" />
-            <element signature="e#261#1106#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/styles/navbar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#184#248#0" expanded="false" />
-            <element signature="e#261#1106#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="100" selection-start-line="5" selection-start-column="100" selection-end-line="5" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/styles/navbar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
-          <folding>
-            <element signature="e#184#248#0" expanded="false" />
-            <element signature="e#261#1106#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="100" selection-start-line="5" selection-start-column="100" selection-end-line="5" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/styles/navbar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
-          <folding>
-            <element signature="e#184#248#0" expanded="false" />
-            <element signature="e#261#1106#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/skeleton.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/styles/navbar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#184#248#0" expanded="false" />
-            <element signature="e#261#1106#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/skeleton.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/styles/navbar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#184#248#0" expanded="false" />
-            <element signature="e#261#1106#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -494,10 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#184#248#0" expanded="false" />
-            <element signature="e#261#1106#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -505,10 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#184#248#0" expanded="false" />
-            <element signature="e#261#1106#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -589,13 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/main/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39661017">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../flask_chat/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -659,6 +561,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12765957">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/skeleton.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44680852">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../openmap/open_map/static/wps/wpsrequest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../openmap/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../openmap/gis_django/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45762712">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../openmap/gis_django/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7881356">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../openmap/open_map/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8172589">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../flask_chat/app/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -668,73 +619,215 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../flask_chat/app/static/styles/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23857868">
-          <caret line="31" column="20" selection-start-line="29" selection-start-column="3" selection-end-line="31" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.20812182">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../flask_chat/app/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28723404">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="108" />
+        <state vertical-scroll-proportion="-0.08510638">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/styles/old.css">
+    <entry file="file://$PROJECT_DIR$/app/templates/500.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5106383">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12765957">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/skeleton.html">
+    <entry file="file://$PROJECT_DIR$/app/templates/index_raw.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44680852">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="39" />
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../openmap/open_map/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60913706">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../openmap/open_map/templates/test_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../openmap/open_map/templates/angular.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60638297">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/index_raw_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6666667">
+          <caret line="36" column="50" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/styles/raw_2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="78" selection-start-line="0" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/styles/raw.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="179" column="12" selection-start-line="179" selection-start-column="11" selection-end-line="179" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/index_raw.html">
+    <entry file="file://$PROJECT_DIR$/app/static/styles/old.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.888889">
-          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/styles/navbar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26903552">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="80" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/styles/raw_3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70050764">
+          <caret line="167" column="21" selection-start-line="167" selection-start-column="21" selection-end-line="167" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/index_raw_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.666667">
+          <caret line="46" column="82" selection-start-line="0" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/styles/raw_4.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="394" selection-end-column="0" />
           <folding>
-            <element signature="e#184#248#0" expanded="false" />
-            <element signature="e#261#1106#0" expanded="false" />
+            <element signature="e#5#47#0" expanded="false" />
+            <element signature="e#54#95#0" expanded="false" />
+            <element signature="e#778#1502#0" expanded="false" />
+            <element signature="e#1947#3162#0" expanded="false" />
+            <element signature="e#3172#3232#0" expanded="false" />
+            <element signature="e#3243#3883#0" expanded="false" />
+            <element signature="e#3895#4059#0" expanded="false" />
+            <element signature="e#4074#4464#0" expanded="false" />
+            <element signature="e#5118#5541#0" expanded="false" />
+            <element signature="e#5556#5982#0" expanded="false" />
+            <element signature="e#6006#6554#0" expanded="false" />
+            <element signature="e#6562#6588#0" expanded="false" />
+            <element signature="e#6597#6666#0" expanded="false" />
+            <element signature="e#6682#6868#0" expanded="false" />
+            <element signature="e#6890#7051#0" expanded="false" />
+            <element signature="e#7062#7134#0" expanded="false" />
+            <element signature="e#7144#7370#0" expanded="false" />
+            <element signature="e#7381#7453#0" expanded="false" />
+            <element signature="e#7469#7654#0" expanded="false" />
+            <element signature="e#7665#7710#0" expanded="false" />
+            <element signature="e#7717#7858#0" expanded="false" />
+            <element signature="e#7867#7934#0" expanded="false" />
+            <element signature="e#7941#8025#0" expanded="false" />
+            <element signature="e#8031#8116#0" expanded="false" />
+            <element signature="e#8126#8131#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/index_raw_4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.0">
+          <caret line="26" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7952623">
+          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15957446">
+          <caret line="5" column="107" selection-start-line="5" selection-start-column="107" selection-end-line="5" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/index_raw_5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.62963">
+          <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
+          <folding>
+            <element signature="n#div#4;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/styles/raw_5.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.2741117">
+          <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="8" />
+          <folding>
+            <element signature="e#5#69#0" expanded="false" />
+            <element signature="e#76#140#0" expanded="false" />
+            <element signature="e#152#455#0" expanded="false" />
+            <element signature="e#465#805#0" expanded="false" />
+            <element signature="e#817#1541#0" expanded="false" />
+            <element signature="e#1549#1623#0" expanded="false" />
+            <element signature="e#1633#1864#0" expanded="false" />
+            <element signature="e#1878#1933#0" expanded="false" />
+            <element signature="e#1943#2018#0" expanded="false" />
+            <element signature="e#2031#2128#0" expanded="false" />
+            <element signature="e#2140#2358#0" expanded="false" />
+            <element signature="e#2371#3586#0" expanded="false" />
+            <element signature="e#3596#3658#0" expanded="false" />
+            <element signature="e#3669#4305#0" expanded="false" />
+            <element signature="e#4317#4481#0" expanded="false" />
+            <element signature="e#4496#4886#0" expanded="false" />
+            <element signature="e#4894#5064#0" expanded="false" />
+            <element signature="e#5077#5521#0" expanded="false" />
+            <element signature="e#5532#5947#0" expanded="false" />
+            <element signature="e#5962#6380#0" expanded="false" />
+            <element signature="e#6404#7207#0" expanded="false" />
+            <element signature="e#7215#7241#0" expanded="false" />
+            <element signature="e#7250#7322#0" expanded="false" />
+            <element signature="e#7338#7524#0" expanded="false" />
+            <element signature="e#7546#7707#0" expanded="false" />
+            <element signature="e#7718#7790#0" expanded="false" />
+            <element signature="e#7800#8047#0" expanded="false" />
+            <element signature="e#8058#8130#0" expanded="false" />
+            <element signature="e#8146#8352#0" expanded="false" />
+            <element signature="e#8363#8409#0" expanded="false" />
+            <element signature="e#8416#8557#0" expanded="false" />
+            <element signature="e#8566#8633#0" expanded="false" />
+            <element signature="e#8640#8724#0" expanded="false" />
+            <element signature="e#8730#8815#0" expanded="false" />
+            <element signature="e#8825#8929#0" expanded="false" />
+            <element signature="e#8944#8985#0" expanded="false" />
+            <element signature="e#9002#9047#0" expanded="false" />
+            <element signature="e#9062#9817#0" expanded="false" />
+            <element signature="e#9834#10054#0" expanded="false" />
           </folding>
         </state>
       </provider>

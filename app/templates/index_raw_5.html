@@ -1,0 +1,145 @@
+{% include "base.html" %}
+
+
+{% block navbar %}
+<!--
+<div id="slideshow">
+
+    <div>
+        <img src="{{ url_for('static', filename='images/cars/test/1.jpg') }}">
+    </div>
+    <div>
+        <img src="{{ url_for('static', filename='images//cars/test/2.jpg') }}">
+    </div>
+
+
+</div>
+-->
+<div class="raw_naw">
+
+    <!--
+    <div id="left_bord">
+    </div>
+    -->
+    <div id="image_box">
+        <img src="{{ url_for('static', filename='images/logo_midi.jpg') }}">
+        <!-- <img src="{{ url_for('static', filename='images/logo_arrows.jpg') }}"> -->
+        <!-- <img src="{{ url_for('static', filename='images/logo-big_5.jpg') }}">-->
+
+    </div>
+    <div id="local">
+        <p><img src="{{ url_for('static', filename='images/ukr_logo.jpg') }}">Українська</p>
+        <p><img src="{{ url_for('static', filename='images/rus_logo.png') }}">Русский</p>
+        <p><img src="{{ url_for('static', filename='images/br_logo.jpg') }}">English</p>
+    </div>
+    <div id="contact">
+        <p>+38 (098) 000 11 22</p>
+        <p>+38 (098) 000 11 22</p>
+        <p>+38 (098) 000 11 22</p>
+    </div>
+
+    <!--
+    <div id="right_bord">
+    </div>
+    -->
+</div>
+
+<div id="menu_box">
+
+
+
+
+
+    <button class="menu_first">О Компании</button>
+    <img src="{{ url_for('static', filename='images/cars/test_3/point_2.jpg') }}">
+    <button class="menu_but">Услуги</button>
+    <img src="{{ url_for('static', filename='images/cars/test_3/point_2.jpg') }}">
+    <button class="menu_but">Запрос</button>
+    <img src="{{ url_for('static', filename='images/cars/test_3/point_2.jpg') }}">
+    <button class="menu_but_two">География перевозок</button>
+    <img src="{{ url_for('static', filename='images/cars/test_3/point_2.jpg') }}">
+    <button class="menu_but_two">Полезная информация</button>
+    <img src="{{ url_for('static', filename='images/cars/test_3/point_2.jpg') }}">
+    <button class="menu_but">Контакты</button>
+
+    <!--
+    <ul id="menu_list">
+
+        <li><button class="menu_but">О Компании</button></li>
+        <li><button class="menu_but">Услуги</button></li>
+        <li><button class="menu_but">Запрос</button></li>
+        <li><button class="menu_but_two">География перевоок</button></li>
+        <li><button class="menu_but_two">Полезная информация</button></li>
+        <li><button class="menu_but_l">Контакты</button></li>
+
+    </ul>
+
+    -->
+</div>
+
+<div id="sl_but">
+    <!--<button id="sl_but_l"><</button>-->
+    <div id="slides">
+
+        <div>
+            <img src="{{ url_for('static', filename='images/slideshow/1.jpg') }}" class="slide_im">
+        </div>
+        <div>
+            <img src="{{ url_for('static', filename='images/slideshow/2.jpg') }}" class="slide_im">
+        </div>
+        <div>
+            <img src="{{ url_for('static', filename='images/slideshow/3.jpg') }}" class="slide_im">
+        </div>
+        <div>
+            <img src="{{ url_for('static', filename='images/cars/test_3/3.jpg') }}" class="slide_im">
+        </div>
+
+
+    </div>
+    <!--<button id="sl_but_r"> ></button>-->
+</div>
+
+<div id="content">
+
+
+
+    <!--<div class="first_nav">-->
+    <!--<div class="im_div"><img src="{{ url_for('static', filename='images/logo.jpg') }}" ></div>-->
+    <!--</div>-->
+
+
+
+    <div id="infcontent">
+        {% block page_content %}
+        {% endblock %}
+    </div>
+</div>
+
+<div id="credits">
+
+    <img src="{{ url_for('static', filename='images/credits_logo.jpg') }}" id="credits_logo">
+    <div id="credits_cont">
+        <p><b> ООО «Логистик Лайн»</b></p>
+        <p><b>Юридический адрес:</b> Г.Киев, ул. Каштанова, д. 8Б, Офис 2</p>
+        <p><b>Фактический адрес:</b> 3 03113, Г. Киев ул. Дегтяревская 53А, Офис 201,</p>
+    </div>
+    <img src="{{ url_for('static', filename='images/credits_small_logo.jpg') }}" id="credits_logo_r">
+
+
+</div>
+
+<script>
+    $("#slides > div:gt(0)").hide();
+
+    setInterval(function() {
+        $('#slides > div:first')
+                .fadeOut(1000)
+                .next()
+                .fadeIn(1000)
+                .end()
+                .appendTo('#slides');
+    },  3000);
+</script>
+{% endblock %}
+
+
