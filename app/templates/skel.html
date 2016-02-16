@@ -17,31 +17,37 @@
 -->
 <div class="raw_naw">
 
-    <!--
+    <!---->
     <div id="left_bord">
     </div>
-    -->
+
     <div id="image_box">
         <img src="{{ url_for('static', filename='images/logo_midi.jpg') }}">
         <!-- <img src="{{ url_for('static', filename='images/logo_arrows.jpg') }}"> -->
         <!-- <img src="{{ url_for('static', filename='images/logo-big_5.jpg') }}">-->
 
     </div>
-    <div id="local">
-        <p><img src="{{ url_for('static', filename='images/ukr_logo.jpg') }}">Українська</p>
-        <p><img src="{{ url_for('static', filename='images/rus_logo.png') }}">Русский</p>
-        <p><img src="{{ url_for('static', filename='images/br_logo.jpg') }}">English</p>
-    </div>
-    <div id="contact">
-        <p>+38 (098) 000 11 22</p>
-        <p>+38 (098) 000 11 22</p>
-        <p>+38 (098) 000 11 22</p>
-    </div>
-
     <!--
-    <div id="right_bord">
+    <div id="sign">
+        Международные грузоперевозки
     </div>
     -->
+
+
+    <!---->
+    <div id="right_bord">
+        <div id="local">
+            <p><img src="{{ url_for('static', filename='images/ukr_logo.jpg') }}">Українська</p>
+            <p><img src="{{ url_for('static', filename='images/rus_logo.png') }}">Русский</p>
+            <p><img src="{{ url_for('static', filename='images/br_logo.jpg') }}">English</p>
+        </div>
+        <div id="contact">
+            <p>+38 (098) 000 11 22</p>
+            <p>+38 (098) 000 11 22</p>
+            <p>+38 (098) 000 11 22</p>
+        </div>
+    </div>
+
 </div>
 
 <div id="menu_box">
@@ -77,35 +83,10 @@
     -->
 </div>
 
-<div id="sl_but">
-    <!--<button id="sl_but_l"><</button>-->
-    <div id="slides">
-
-        <div>
-            <img src="{{ url_for('static', filename='images/slideshow/1.jpg') }}" class="slide_im">
-        </div>
-        <div>
-            <img src="{{ url_for('static', filename='images/slideshow/2.jpg') }}" class="slide_im">
-        </div>
-        <div>
-            <img src="{{ url_for('static', filename='images/slideshow/3.jpg') }}" class="slide_im">
-        </div>
-        <div>
-            <img src="{{ url_for('static', filename='images/cars/test_3/3.jpg') }}" class="slide_im">
-        </div>
-
-
-    </div>
-    <!--<button id="sl_but_r"> ></button>-->
-</div>
 
 <div id="content">
-
-
-    <div id="infcontent">
-        {% block page_content %}
-        {% endblock %}
-    </div>
+    {% block page_content %}
+    {% endblock %}
 </div>
 
 <div id="credits">

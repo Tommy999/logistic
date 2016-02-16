@@ -185,6 +185,12 @@ body {
     height: 10%;
     //padding: 1px;
     /*
+    background: -moz-linear-gradient(top, #bfacdb 30%, #a191b6 80%, #5A5167 95%);
+    background: -webkit-linear-gradient(top, #bfacdb 30%, #a191b6 80%, #5A5167 95%);
+    background: linear-gradient(top, #bfacdb 30%, #a191b6 80%, #5A5167 95%));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 );
+
+
        background: -moz-linear-gradient(top, white 0%, #dbdbdb 50%, #c1c1c1 95%);
        background: -webkit-linear-gradient(top, white 0%, #dbdbdb 50%, #c1c1c1 95%);
        background: linear-gradient(to bottom, white 0%, #dbdbdb 50%, #c1c1c1 95%);
