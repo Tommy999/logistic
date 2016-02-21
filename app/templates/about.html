@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+
+{% block page_content %}
+
+
+<script>
+
+
+    var it = 1;
+    setInterval(function(){
+        it = it + 1;
+        $('#rad'+it).prop('checked', true);
+        $('#slidebox').css('background-image','url(../static/images/NG/slides/'+it+'.jpg)');
+        if (it == 5) {
+            it = 0;
+        }
+    }, 3000);
+
+
+</script>
+{% endblock %}

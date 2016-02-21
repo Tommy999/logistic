@@ -4,7 +4,10 @@ from . import main
 from app import db
 
 
+@main.route('/about', methods=['GET', 'POST'])
+def about():
 
+    return render_template('about.html')
 
 @main.route('/index', methods=['GET', 'POST'])
 def index():

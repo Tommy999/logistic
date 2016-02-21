@@ -3,18 +3,66 @@
 <html>
 <head>
     <title>Logistic</title>
-    <!--<link rel=stylesheet type=text/css href="{{ url_for('static', filename='styles/navbar.css') }}">-->
+    <!-- fonts -->
     <link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='styles/raw_6.css') }}">
     <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+
+    <!-- styles -->
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='styles/raw_6.css') }}">
+
+    <!-- scripts -->
     <script type="text/javascript" src="{{url_for('static', filename='scripts/jquery-2.1.3.js')}}"></script>
+
 </head>
-<body>
+    <body>
 
-    {% block navbar %}
-    {% endblock %}
+        <div id="slidebox">
 
-</body>
+            <img id="logo" src="{{ url_for('static', filename='images/NG/logos/logo.gif') }}">
+
+            <div id="info">
+                <div id="languages">
+                    <p><img src="{{ url_for('static', filename='images/NG/languages/eng.gif') }}">
+                    <img src="{{ url_for('static', filename='images/NG/languages/rus.gif') }}">
+                    <img src="{{ url_for('static', filename='images/NG/languages/ukr.gif') }}"></p>
+                </div>
+                <div id="contact">
+                    <p><img src="{{ url_for('static', filename='images/NG/contact/phone.png') }}"> (098) 123 45 67</p>
+                </div>
+            </div>
+
+            <div id="slidebuttons">
+                <input type="radio" id="rad1" name="slrad"/>
+                <label for="rad1"></label>
+                <input type="radio" id="rad2" name="slrad"/>
+                <label for="rad2"></label>
+                <input type="radio" id="rad3" name="slrad"/>
+                <label for="rad3"></label>
+                <input type="radio" id="rad4" name="slrad"/>
+                <label for="rad4"></label>
+                <input type="radio" id="rad5" name="slrad"/>
+                <label for="rad5"></label>
+
+            </div>
+        </div>
+        <div id="menubox">
+            <button id="but" >О Компании</button>
+            <button>Услуги</button>
+            <button>Запрос</button>
+            <button>География перевозок</button>
+            <button>Полезная информация</button>
+            <button>Контакты</button>
+        </div>
+        <div id="content">
+            {% block page_content %}
+            {% endblock %}
+        </div>
+        <div id="credits">
+
+        </div>
+    </body>
 </html>
+
+
