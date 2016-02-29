@@ -10,7 +10,8 @@
     <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
 
     <!-- styles -->
-    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='styles/raw_6.css') }}">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='styles/base.css') }}">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='styles/queryform.css') }}">
 
     <!-- scripts -->
     <script type="text/javascript" src="{{url_for('static', filename='scripts/jquery-2.1.3.js')}}"></script>
@@ -18,6 +19,7 @@
 </head>
     <body>
 
+    <div id="wrapper">
         <div id="slidebox">
 
             <img id="logo" src="{{ url_for('static', filename='images/NG/logos/logo.gif') }}">
@@ -29,7 +31,9 @@
                     <img src="{{ url_for('static', filename='images/NG/languages/ukr.gif') }}"></p>
                 </div>
                 <div id="contact">
-                    <p><img src="{{ url_for('static', filename='images/NG/contact/phone.png') }}"> (098) 123 45 67</p>
+
+                    <img src="{{ url_for('static', filename='images/NG/contact/phone.png') }}">
+                    <p>(098) 123 45 67</p>
                 </div>
             </div>
 
@@ -48,21 +52,87 @@
             </div>
         </div>
         <div id="menubox">
-            <button id="but" >О Компании</button>
-            <button>Услуги</button>
-            <button>Запрос</button>
-            <button>География перевозок</button>
-            <button>Полезная информация</button>
-            <button>Контакты</button>
+
+            <a id="but1" href="/about">О Компании</a>
+            <a id="but2" href="/services">Услуги</a>
+            <a id="but3" href="/querypage">Запрос</a>
+            <a id="but4" href="/geography">География перевозок</a>
+            <a id="but5" href="/info">Полезная информация</a>
+            <a id="but6" href="/contact">Контакты</a>
+            <!--
+            <button id="but1" >О Компании</button>
+            <button id="but2">Услуги</button>
+            <button id="but3">Запрос</button>
+            <button id="but4">География перевозок</button>
+            <button id="but5">Полезная информация</button>
+            <button id="but6">Контакты</button>
+            -->
         </div>
         <div id="content">
             {% block page_content %}
             {% endblock %}
         </div>
-        <div id="credits">
+        <div id="footer">
+
+            <!--<img src="{{ url_for('static', filename='images/NG/logos/logo (copy).gif') }}" id="credits_logo">-->
+            <div id="credits_cont">
+                <p><b> ООО «Логистик Лайн» |</b>
+                <b>Юридический адрес:</b> Г.Киев, ул. Каштанова, д. 8Б, Офис 2 |
+                <b>Фактический адрес:</b> 3 03113, Г. Киев ул. Дегтяревская 53А, Офис 201,</p>
+            </div>
+            <!--<img src="{{ url_for('static', filename='images/credits_small_logo.jpg') }}" id="credits_logo_r">-->
+
 
         </div>
+    </div>
+    <script>
+        $(document).ready(function(){
+
+            $('#rad1').prop('checked', true);
+
+        });
+
+        var it = 1;
+
+        $("#slidebuttons>input[type=\"radio\"]").click(function(event){
+
+            it=parseInt(this.id[this.id.length-1]);
+            $('#rad'+it).prop('checked', true);
+            $('#slidebox').css('background-image','url(../static/images/NG/slides/'+it+'.jpg)');
+        });
+
+        setInterval(function(){
+            if (it == 5) {
+                it = 0;
+            };
+            it = it + 1;
+            $('#rad'+it).prop('checked', true);
+            /*
+            $('#slidebox').animate({
+                opacity: '0.5'
+            });
+            */
+            $('#slidebox').css('background-image','url(../static/images/NG/slides/'+it+'.jpg)');
+            /*
+            $('#slidebox').animate({
+                opacity: '0'
+            });
+
+            $( "#slidebox" ).animate({
+                opacity: 0.25,
+                left: "+=50",
+                height: "toggle"
+            }, 5000, function() {
+                // Animation complete.
+            });
+            */
+
+
+        }, 3000);
+
+    </script>
     </body>
+
 </html>
 
 

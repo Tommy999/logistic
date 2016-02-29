@@ -142,7 +142,7 @@ body {
 
 .point{
     vertical-align: middle;
-    background-image: url(../images/cars/test_3/point_2.jpg);
+    background-image: url(../../images/cars/test_3/point_2.jpg);
     font-weight: bold;
     font-size: 12pt;
     border: 1px solid #3f460e;

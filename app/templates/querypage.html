@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+
+{% block page_content %}
+    <div id="querywrapper">
+        <div id="queryform">
+            <form action="/querypage" method="post">
+                <!--
+                <p><input name="shipper" id="shipper"required placeholder="Грузоотправитель ( ФИО или название организации) контактные тел."></p>
+                <p><input name="place" id="place"required placeholder="Место загрузки"></p>
+                <p><input name="contact_face_in" id="contact_face_in"required placeholder="Контактное лицо на погрузке, тел."></p>
+                <p><input name="place_in" id="place_in"required placeholder="Место затаможки"></p>
+                <p><input name="custom_way" id="custom_way"required placeholder="Погран переход"></p>
+                <p><input name="place_out" id="place_out"required placeholder="Место выгрузки"></p>
+                <p><input name="contact_face_out" id="contact_face_out"required placeholder="Контактное лицо на выгрузке, тел."></p>
+                <p><input name="cargo_info" id="cargo_info"required placeholder="Информация о грузе"></p>
+                <p><input name="cargo_name" id="cargo_name"required placeholder="Наименование груза"></p>
+                <p><input name="weight" id="weight"required placeholder="Вес груза"></p>
+                <p><input name="volume" id="volume"required placeholder="Объем груза"></p>
+                <p><input name="for_m_cargo" id="for_m_cargo" placeholder="Для сборных грузов: точные размеры или длина по полу"></p>
+                <p><input name="type" id="type" required placeholder="Тип подвижного соства"></p>
+                <p><input name="count" id="count"required placeholder="Количество подвижного соства"></p>
+                <p><input name="add_cond" id="add_cond"required placeholder="Дополнительные условия"></p>
+                -->
+                <p><input name="contact_info" id="contact_info"required placeholder="Ваша контактная иформация для обратной связи"></p>
+                <p><input type="submit" value="Отправить"></p>
+
+            </form>
+        </div>
+    </div>
+<script>
+    $(document).ready(function(){
+
+        $('#but1').addClass( "notClicked" );
+        $('#but2').addClass( "notClicked" );
+        $('#but3').addClass( "clicked" );
+        $('#but4').addClass( "notClicked" );
+        $('#but5').addClass( "notClicked" );
+        $('#but6').addClass( "notClicked" );
+
+
+    });
+</script>
+{% endblock %}

@@ -35,7 +35,7 @@ body {
     height: 100px;
 //border-bottom: 2px solid #41471c;
     border-top: 2px solid #41471c;
-    background-image: url(../images/texture_line.jpg);
+    background-image: url(../../images/texture_line.jpg);
     /*
     margin-top:0.5%;
     margin-right:0.5%;
@@ -77,7 +77,7 @@ body {
 
 @font-face {
     font-family: CopperplateGothicBold;
-    src: url(../fonts/8673.ttf);
+    src: url(../../fonts/8673.ttf);
     font-weight:400;
 }
 
@@ -185,7 +185,7 @@ body {
 
 .point{
     vertical-align: middle;
-    background-image: url(../images/cars/test_3/point_2.jpg);
+    background-image: url(../../images/cars/test_3/point_2.jpg);
     font-weight: bold;
     font-size: 12pt;
     border: 1px solid #3f460e;

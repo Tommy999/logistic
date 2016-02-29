@@ -1,42 +1,56 @@
 from datetime import datetime
-from flask import Flask, render_template, session, redirect, url_for, flash
+from flask import Flask, render_template, session, redirect, url_for, flash, request
 from . import main
-from app import db
-
+from forms import QueryForm
+from flask.ext.mail import Message
+from app import mail
+from email import send_email
 
 @main.route('/about', methods=['GET', 'POST'])
 def about():
 
     return render_template('about.html')
 
-@main.route('/index', methods=['GET', 'POST'])
-def index():
 
-    return render_template('index.html')
+@main.route('/services', methods=['GET', 'POST'])
+def services():
+
+    return render_template('services.html')
 
 
-@main.route('/index_raw', methods=['GET', 'POST'])
-def index_raw():
+@main.route('/querypage', methods=['GET', 'POST'])
+def querypage():
 
-    return render_template('index_raw.html')
+    if request.method == 'POST':
 
-@main.route('/index_raw_2', methods=['GET', 'POST'])
-def index_raw_2():
+        send_email()
+        print '______________'
+        print request.method
+        #print request.form['shipper']
+        #print request.form.get('age')
+    return render_template('querypage.html')
 
-    return render_template('index_raw_2.html')
 
-@main.route('/index_raw_3', methods=['GET', 'POST'])
-def index_raw_3():
+@main.route('/geography', methods=['GET', 'POST'])
+def geography():
 
-    return render_template('index_raw_3.html')
+    return render_template('geography.html')
 
-@main.route('/index_raw_4', methods=['GET', 'POST'])
-def index_raw_4():
 
-    return render_template('index_raw_4.html')
+@main.route('/info', methods=['GET', 'POST'])
+def info():
 
-@main.route('/index_raw_5', methods=['GET', 'POST'])
-def index_raw_5():
+    return render_template('info.html')
 
-    return render_template('index_raw_5.html')
+
+@main.route('/contact', methods=['GET', 'POST'])
+def contact():
+
+    return render_template('contact.html')
+
+
+
+
+
+
 

@@ -1,0 +1,216 @@
+html {
+    //height: 100%;
+    margin: 0 0 0 0;
+    display: block;
+}
+
+body {
+
+    //height: 100%;
+    width: 100%;
+    margin: 0 0 0 0;
+
+
+}
+
+#wrapper{
+
+    position:relative;
+    height: 100%;
+}
+
+#slidebox{
+
+
+    border-top: solid 5px #40471c;
+    border-bottom: solid 16px #a4b63b;
+    height: 5%;
+    margin: 0 0 0 0;
+    background-image: url(../images/NG/slides/1.jpg);
+    background-position: top center;
+    background-size: cover;
+
+
+}
+
+#logo{
+
+    margin:1% 0 0 2%;
+}
+
+#info{
+
+    float:right;
+
+    margin: 1% 1% 0 0;
+    width: 290px;
+    height: 160px;
+}
+
+#languages{
+
+
+    margin: 0 1% 0 40%;
+}
+
+#languages>p>img{
+
+    margin: 0 0 0 5px;
+    cursor: pointer;
+
+}
+
+#contact{
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14pt;
+    color:#40471c;
+}
+
+#contact>p{
+    width: 200px;
+    margin: 0 7% 0 0%;
+    float:right;
+}
+#contact>img{
+    margin: 0.5% 0 0 13%;
+}
+
+
+#slidebuttons{
+
+    width: 15%;
+    margin: 13% 0 0.3% 45%;
+    height: 5%;
+}
+
+
+#slidebuttons>input[type="radio"]{
+    display:none;
+
+}
+
+#slidebuttons>label{
+    margin: 0 0 0 15px;
+
+}
+
+#slidebuttons>input[type="radio"] + label
+{
+    background: #858d40;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    cursor: pointer;
+}
+
+#slidebuttons>input[type="radio"]:checked + label
+{
+    background: #444b1f;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}
+
+#menubox{
+
+    margin: 0 0 0 2%;
+    padding: 0 0 0 0;
+}
+
+.notClicked{
+
+
+    margin: 0 0 0 2px;
+    display: inline-block;
+    line-height: 3;
+    width: 16%;
+    text-align: center;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border:none;
+    text-decoration: none;
+    color:white;
+    background: -moz-linear-gradient(top, #747453 15%, #636444 40%, #434723 95%);
+    background: -webkit-linear-gradient(top, #747453 15%, #636444 40%, #434723 95%);
+    background: linear-gradient(top, #747453 15%, #636444 40%, #434723 95%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 );
+
+}
+
+#menubox>a:hover{
+
+    cursor: pointer;
+
+}
+
+.clicked{
+    text-align: center;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    margin: 0 0 0 2px;
+    display: inline-block;
+    line-height: 3;
+    width: 16%;
+    background-color: white;
+    color: #444b1f;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#content{
+
+    min-height:100%;
+    box-sizing: border-box;
+    padding-bottom: 90px;
+
+}
+
+
+#credits_logo{
+    margin:0.5% 2% 0 2%;
+    float:left;
+
+}
+
+#footer{
+
+
+    border-top: 3px solid #404323;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+
+    float:left;
+    width: 100%;
+    height: 40px;
+//width: auto;
+
+   margin: 40px 0 0 0%;
+
+//background-color: #9ac3b2;
+
+    background: -moz-linear-gradient(top, #8c9270 20%, #9ea47c 60%, #b9bf95 95%);
+    background: -webkit-linear-gradient(top, #8c9270 20%, #9ea47c 60%, #b9bf95 95%);
+    background: linear-gradient(top, #8c9270 20%, #9ea47c 60%, #b9bf95 95%);
+    /*
+    background: -moz-linear-gradient(top, #9ac3b2 10%, #c9fdec 30%, #ffffff 95%);
+    background: -webkit-linear-gradient(top, #9ac3b2 10%, #c9fdec 30%, #ffffff 95%);
+    background: linear-gradient(top, #9ac3b2 10%, #c9fdec 30%, #ffffff 95%);
+    */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 );
+
+
+}
+
+#credits_cont{
+
+    margin: 0 0 0 10%;
+}
