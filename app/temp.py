@@ -1,12 +1,21 @@
+from flask import Flask
+from flask.ext.mail import Mail
 from flask.ext.mail import Message
-from app import mail
 
+DEBUG = True
+MAIL_SERVER = 'smtp.googlemail.com'
+MAIL_PORT = 465
+MAIL_USE_TLS = False
+MAIL_USE_SSL = True
+MAIL_USERNAME = 'moustachedtom@gmail.com'
+MAIL_PASSWORD = '23931174Tolian'
 
-def send_email(subject, sender, recipients, text_body, html_body):
-    msg = Message(subject, sender=sender, recipients=recipients)
-    msg.body = text_body
-    msg.html = html_body
-    mail.send(msg)
+app = Flask(__name__)
+app.config.from_object(__name__)
+mail = Mail(app)
 
+msg =Message('test subject', sender='moustachedtom@gmail.com', recipients=['moustachedtom@gmail.com'])
+msg.body = 'text body'
+msg.html = '<b>HTML</b> body'
 
-send_email('asdfsdaf', 'moustachedtom@gmail.com', 'moustachedtom@gmail.com', 'asdfasdf','<b>afasdf</b>')
+mail.send(msg)

@@ -1,11 +1,10 @@
-{% extends "base.html" %}
+{% extends "index.html" %}
 
 
 {% block page_content %}
     <div id="querywrapper">
         <div id="queryform">
             <form action="/querypage" method="post">
-                <!--
                 <p><input name="shipper" id="shipper"required placeholder="Грузоотправитель ( ФИО или название организации) контактные тел."></p>
                 <p><input name="place" id="place"required placeholder="Место загрузки"></p>
                 <p><input name="contact_face_in" id="contact_face_in"required placeholder="Контактное лицо на погрузке, тел."></p>
@@ -21,9 +20,8 @@
                 <p><input name="type" id="type" required placeholder="Тип подвижного соства"></p>
                 <p><input name="count" id="count"required placeholder="Количество подвижного соства"></p>
                 <p><input name="add_cond" id="add_cond"required placeholder="Дополнительные условия"></p>
-                -->
                 <p><input name="contact_info" id="contact_info"required placeholder="Ваша контактная иформация для обратной связи"></p>
-                <p><input type="submit" value="Отправить"></p>
+                <p><input type="submit" value="Отправить" id="center"></p>
 
             </form>
         </div>
@@ -37,6 +35,8 @@
         $('#but4').addClass( "notClicked" );
         $('#but5').addClass( "notClicked" );
         $('#but6').addClass( "notClicked" );
+        document.body.scrollTop = document.documentElement.scrollTop =
+                document.getElementById('center').offsetTop-window.innerHeight/2;
 
 
     });

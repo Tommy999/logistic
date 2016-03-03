@@ -1,7 +1,94 @@
-{% extends "base.html" %}
+{% extends "index.html" %}
 
 
 {% block page_content %}
+
+<div id="useful_list">
+    <ul>
+        <li>
+
+            <!--<img src="{{ url_for('static', filename='images/NG/info_li/credits_logo.gif') }}">-->
+            <span class="hvr-sink" id="law">
+                {% if lang_code == "ru" %} Законодательство {% endif %}
+                {% if lang_code == "ua" %} Законодательство {% endif %}
+                {% if lang_code == "en" %} Законодательство {% endif %}
+            </span>
+        </li>
+
+        <div id="div_law"></div>
+        <li id="numbers">
+            <span class="hvr-sink">
+                {% if lang_code == "ru" %} Номерные знаки {% endif %}
+                {% if lang_code == "ua" %} Законодательство {% endif %}
+                {% if lang_code == "en" %} Законодательство {% endif %}
+            </span>
+        </li>
+        <div id="div_numbers"></div>
+        <li id="docs">
+            <span class="hvr-sink">
+                {% if lang_code == "ru" %} Документы для перевозки {% endif %}
+                {% if lang_code == "ua" %} Законодательство {% endif %}
+                {% if lang_code == "en" %} Законодательство {% endif %}
+            </span>
+        </li>
+        <div id="div_docs"></div>
+        <li id="inko">
+            <span class="hvr-sink">
+                {% if lang_code == "ru" %} Инкотермс 2010 {% endif %}
+                {% if lang_code == "ua" %} Законодательство {% endif %}
+                {% if lang_code == "en" %} Законодательство {% endif %}
+            </span>
+        </li>
+        <div id="div_inko"></div>
+        <li id="map">
+            <span class="hvr-sink">
+                {% if lang_code == "ru" %} Карты стран (квадраты) {% endif %}
+                {% if lang_code == "ua" %} Законодательство {% endif %}
+                {% if lang_code == "en" %} Законодательство {% endif %}
+            </span>
+        </li>
+        <div id="div_map"></div>
+        <li id="class">
+            <span class="hvr-sink">
+                {% if lang_code == "ru" %} Класс опасности () групповой{% endif %}
+                {% if lang_code == "ua" %} Законодательство {% endif %}
+                {% if lang_code == "en" %} Законодательство {% endif %}
+            </span>
+        </li>
+        <div id="div_class"></div>
+        <li id="zog">
+            <span class="hvr-sink">
+                {% if lang_code == "ru" %} Пограничные переходы {% endif %}
+                {% if lang_code == "ua" %} Законодательство {% endif %}
+                {% if lang_code == "en" %} Законодательство {% endif %}
+            </span>
+        </li>
+        <div id="div_zog"></div>
+        <li id="trans">
+            <span class="hvr-sink">
+                {% if lang_code == "ru" %} Транспортная тара {% endif %}
+                {% if lang_code == "ua" %} Законодательство {% endif %}
+                {% if lang_code == "en" %} Законодательство {% endif %}
+            </span>
+        </li>
+        <div id="div_trans"></div>
+        <li id="regim">
+            <span class="hvr-sink">
+                {% if lang_code == "ru" %} Режим крепления {% endif %}
+                {% if lang_code == "ua" %} Законодательство {% endif %}
+                {% if lang_code == "en" %} Законодательство {% endif %}
+            </span>
+        </li>
+        <div id="div_regim">
+
+        </div>
+
+
+    </ul>
+
+    <a id="up">Up</a>
+</div>
+
 
 <script>
     $(document).ready(function(){
@@ -13,7 +100,64 @@
         $('#but5').addClass( "clicked" );
         $('#but6').addClass( "notClicked" );
 
+    });
 
+    $('#law').click(function(event){
+
+        $('#div_law').toggle( "blind" );
+
+    });
+    $('#numbers').click(function(event){
+
+        $('#div_numbers').toggle( "blind" );
+
+    });
+    $('#docs').click(function(event){
+
+        $('#div_docs').toggle( "blind" );
+
+    });
+
+
+    $('#inko').click(function(event){
+
+        $('#div_inko').toggle( "blind" );
+
+    });
+
+    $('#map').click(function(event){
+
+        $('#div_map').toggle( "blind" );
+
+    });
+
+    $('#class').click(function(event){
+
+        $('#div_class').toggle( "blind" );
+
+    });
+
+    $('#zog').click(function(event){
+
+        $('#div_zog').toggle( "blind" );
+
+    });
+
+    $('#trans').click(function(event){
+
+        $('#div_trans').toggle( "blind" );
+
+    });
+
+    $('#regim').click(function(event){
+
+        $('#div_regim').toggle( "blind" );
+
+    });
+
+    $('#up').click(function(event){
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
     });
 </script>
 {% endblock %}

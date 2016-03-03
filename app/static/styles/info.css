@@ -1,0 +1,86 @@
+#useful_list{
+
+//border: solid 1px black;
+    margin: 3% 0 5% 10%;
+    width: 80%;
+
+}
+
+#useful_list>ul{
+    list-style-image: url(../images/NG/info_li/credits_logo.gif);
+    width: 90%;
+
+}
+
+#useful_list>ul>li{
+
+
+
+    margin: 1% 0 0% 15%;
+    font-size: 16pt;
+
+
+}
+
+
+#useful_list>ul>div{
+
+    border: solid 1px black;
+    width: 90%;
+    margin: 1% 0 0% 0;
+    display: none;
+
+}
+/* Sink */
+.hvr-sink {
+    position: relative; top: -7px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-sink:hover, .hvr-sink:focus, .hvr-sink:active {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+
+}
+.hvr-sink:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #a4b63c;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-sink:hover:before, .hvr-sink:focus:before, .hvr-sink:active:before {
+    right: 0;
+}
+
+
+
+                
+#up{
+
+    float:right;
+
+}
+
