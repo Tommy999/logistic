@@ -1,22 +1,23 @@
 #useful_list{
 
 //border: solid 1px black;
-    margin: 3% 0 5% 10%;
-    width: 80%;
+    margin: 0% 0 5% 10%;
+    width: 75%;
+    padding: 0 0 0 0;
 
 }
 
 #useful_list>ul{
     list-style-image: url(../images/NG/info_li/credits_logo.gif);
     width: 90%;
-
+    margin:0 0 0 0;
 }
 
 #useful_list>ul>li{
 
 
 
-    margin: 1% 0 0% 15%;
+    margin: 0% 0 0% 15%;
     font-size: 16pt;
 
 
@@ -63,6 +64,7 @@
     right: 100%;
     bottom: 0;
     background: #a4b63c;
+    box-shadow: 7px 8px 3px #888888;
     height: 4px;
     -webkit-transition-property: right;
     transition-property: right;
@@ -81,6 +83,11 @@
 #up{
 
     float:right;
+    opacity: 0.4;
 
+}
+#up:hover{
+    cursor: pointer;
+    opacity: 1;
 }
 

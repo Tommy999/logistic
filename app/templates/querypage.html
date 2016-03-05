@@ -2,30 +2,66 @@
 
 
 {% block page_content %}
+
     <div id="querywrapper">
         <div id="queryform">
             <form action="/querypage" method="post">
-                <p><input name="shipper" id="shipper"required placeholder="Грузоотправитель ( ФИО или название организации) контактные тел."></p>
-                <p><input name="place" id="place"required placeholder="Место загрузки"></p>
-                <p><input name="contact_face_in" id="contact_face_in"required placeholder="Контактное лицо на погрузке, тел."></p>
-                <p><input name="place_in" id="place_in"required placeholder="Место затаможки"></p>
-                <p><input name="custom_way" id="custom_way"required placeholder="Погран переход"></p>
-                <p><input name="place_out" id="place_out"required placeholder="Место выгрузки"></p>
-                <p><input name="contact_face_out" id="contact_face_out"required placeholder="Контактное лицо на выгрузке, тел."></p>
-                <p><input name="cargo_info" id="cargo_info"required placeholder="Информация о грузе"></p>
-                <p><input name="cargo_name" id="cargo_name"required placeholder="Наименование груза"></p>
-                <p><input name="weight" id="weight"required placeholder="Вес груза"></p>
-                <p><input name="volume" id="volume"required placeholder="Объем груза"></p>
-                <p><input name="for_m_cargo" id="for_m_cargo" placeholder="Для сборных грузов: точные размеры или длина по полу"></p>
-                <p><input name="type" id="type" required placeholder="Тип подвижного соства"></p>
-                <p><input name="count" id="count"required placeholder="Количество подвижного соства"></p>
-                <p><input name="add_cond" id="add_cond"required placeholder="Дополнительные условия"></p>
-                <p><input name="contact_info" id="contact_info"required placeholder="Ваша контактная иформация для обратной связи"></p>
-                <p><input type="submit" value="Отправить" id="center"></p>
+                <p>
+                    <input name="shipper" id="shipper"required placeholder="{% if lang_code == 'ru' %}Грузоотправитель ( ФИО или название организации) контактный тел.{% endif %}{% if lang_code == 'ua' %}Грузовідправник ( ПІБ або назва організації) контактний тел.{% endif %}{% if lang_code == 'en' %} Грузоотправитель ( ФИО или название организации) контактные тел.{% endif %}">
+                </p>
+                <p>
+                    <input name="place" id="place"required placeholder="{% if lang_code == 'ru' %}Место загрузки{% endif %}{% if lang_code == 'ua' %}Місце завантаження{% endif %}{% if lang_code == 'en' %} Грузоотправитель ( ФИО или название организации) контактные тел.{% endif %}">
+                </p>
+                <p>
+                    <input name="contact_face_in" id="contact_face_in"required placeholder="{% if lang_code == 'ru' %}Контактное лицо на погрузке, тел.{% endif %}{% if lang_code == 'ua' %}Контактна особа на завантаженні, тел.{% endif %}{% if lang_code == 'en' %} Грузоотправитель ( ФИО или название организации) контактные тел.{% endif %}">
+                </p>
+                <p>
+                    <input name="place_in" id="place_in"required placeholder="{% if lang_code == 'ru' %}Место затаможки{% endif %}{% if lang_code == 'ua' %}Месце затаможки{% endif %}{% if lang_code == 'en' %} Грузоотправитель ( ФИО или название организации) контактные тел.{% endif %}">
+                </p>
+                <p>
+                    <input name="custom_way" id="custom_way"required placeholder="{% if lang_code == 'ru' %}Погран переход{% endif %}{% if lang_code == 'ua' %}Кордонний перехід{% endif %}{% if lang_code == 'en' %} Грузоотправитель ( ФИО или название организации) контактные тел.{% endif %}">
+                </p>
+                <p>
+                    <input name="place_out" id="place_out"required placeholder="{% if lang_code == 'ru' %}Место выгрузки{% endif %}{% if lang_code == 'ua' %}Місце вигрузки{% endif %}{% if lang_code == 'en' %} Грузоотправитель ( ФИО или название организации) контактные тел.{% endif %}">
+                </p>
+                <p>
+                    <input name="contact_face_out" id="contact_face_out"required placeholder="{% if lang_code == 'ru' %}Контактное лицо на выгрузке, тел.{% endif %}{% if lang_code == 'ua' %}Контактна особа на вигузці{% endif %}{% if lang_code == 'en' %} Грузоотправитель ( ФИО или название организации) контактные тел.{% endif %}">
+                </p>
+                <p>
+                    <input name="cargo_info" id="cargo_info"required placeholder="{% if lang_code == 'ru' %}Информация о грузе{% endif %}{% if lang_code == 'ua' %}Інформація про вантаж{% endif %}{% if lang_code == 'en' %} Грузоотправитель ( ФИО или название организации) контактные тел.{% endif %}">
+                </p>
+                <p>
+                    <input name="cargo_name" id="cargo_name"required placeholder="{% if lang_code == 'ru' %}Наименование груза{% endif %}{% if lang_code == 'ua' %}Назва вантажу{% endif %}{% if lang_code == 'en' %} Грузоотправитель ( ФИО или название организации) контактные тел.{% endif %}">
+                </p>
+                <p>
+                    <input name="weight" id="weight"required placeholder="{% if lang_code == 'ru' %}Вес груза{% endif %}{% if lang_code == 'ua' %}Вага вантажу{% endif %}{% if lang_code == 'en' %} Грузоотправитель ( ФИО или название организации) контактные тел.{% endif %}">
+                </p>
+                <p>
+                    <input name="volume" id="volume"required placeholder="{% if lang_code == 'ru' %}Объем груза{% endif %}{% if lang_code == 'ua' %}Об'єм вантажу{% endif %}{% if lang_code == 'en' %} Грузоотправитель ( ФИО или название организации) контактные тел.{% endif %}">
+                </p>
+                <p>
+                    <input name="for_m_cargo" id="for_m_cargo"required placeholder="{% if lang_code == 'ru' %}Для сборных грузов: точные размеры или длина по полу{% endif %}{% if lang_code == 'ua' %}Для збірних грузів: точні розміри та довжина по підлозі{% endif %}{% if lang_code == 'en' %} Грузоотправитель ( ФИО или название организации) контактные тел.{% endif %}">
+                </p>
+                <p>
+                    <input name="type" id="type"required placeholder="{% if lang_code == 'ru' %}Тип подвижного соства{% endif %}{% if lang_code == 'ua' %}Тип рухомого складу{% endif %}{% if lang_code == 'en' %} Грузоотправитель ( ФИО или название организации) контактные тел.{% endif %}">
+                </p>
+                <p>
+                    <input name="count" id="count"required placeholder="{% if lang_code == 'ru' %}Количество подвижного соства{% endif %}{% if lang_code == 'ua' %}Кількість рухомого складу{% endif %}{% if lang_code == 'en' %} Грузоотправитель ( ФИО или название организации) контактные тел.{% endif %}">
+                </p>
+                <p>
+                    <input name="add_cond" id="add_cond"required placeholder="{% if lang_code == 'ru' %}Дополнительные условия{% endif %}{% if lang_code == 'ua' %}Додаткові умови{% endif %}{% if lang_code == 'en' %} Грузоотправитель ( ФИО или название организации) контактные тел.{% endif %}">
+                </p>
+                <p>
+                    <input name="contact_info" id="contact_info"required placeholder="{% if lang_code == 'ru' %}Ваша контактная иформация для обратной связи{% endif %}{% if lang_code == 'ua' %}Ваша контактна інормація для зворотнього зв'язку{% endif %}{% if lang_code == 'en' %} Грузоотправитель ( ФИО или название организации) контактные тел.{% endif %}">
+                </p>
+                <p>
+                    <input type="submit" value="{% if lang_code == 'ru' %}Отправить{% endif%}{% if lang_code == 'ua' %}Відправити{% endif%}{% if lang_code == 'en' %}Send{% endif%}" id="center">
+                </p>
 
             </form>
         </div>
     </div>
+
 <script>
     $(document).ready(function(){
 
@@ -35,10 +71,12 @@
         $('#but4').addClass( "notClicked" );
         $('#but5').addClass( "notClicked" );
         $('#but6').addClass( "notClicked" );
-        document.body.scrollTop = document.documentElement.scrollTop =
-                document.getElementById('center').offsetTop-window.innerHeight/2;
+        //document.body.scrollTop = document.documentElement.scrollTop = document.getElementById('center').offsetTop-window.innerHeight/2;
+        $("html, body").animate({ scrollTop: 270 }, "slow");
+        return false;
 
 
     });
+
 </script>
 {% endblock %}

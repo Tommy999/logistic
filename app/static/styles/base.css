@@ -2,6 +2,8 @@ html {
     //height: 100%;
     margin: 0 0 0 0;
     display: block;
+    overflow-y: scroll;
+
 }
 
 body {
@@ -17,6 +19,7 @@ body {
 
     position:relative;
     height: 100%;
+
 }
 
 #slidebox{
@@ -126,7 +129,7 @@ body {
 
 #menubox{
 
-    margin: 0 0 0 2%;
+    margin: 0 0 2% 2%;
     padding: 0 0 0 0;
 }
 
@@ -148,6 +151,7 @@ body {
     background: linear-gradient(top, #747453 15%, #636444 40%, #434723 95%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 );
     outline: 0;
+    box-shadow: 7px 8px 5px #888888;
 
 }
 
@@ -159,17 +163,18 @@ body {
 
 .clicked{
     text-align: center;
-    border-bottom-left-radius:10px;
-    border-bottom-right-radius:10px;
+    //border-bottom-left-radius:10px;
+    //border-bottom-right-radius:10px;
     margin: 0 0 0 2px;
     display: inline-block;
-    line-height: 3;
+    //line-height: 3;
     width: 16%;
     background-color: white;
     color: #444b1f;
-    font-weight: bold;
+    //font-weight: bold;
     text-decoration: none;
     outline: 0;
+    border-radius: 15px;
 }
 
 #content{
