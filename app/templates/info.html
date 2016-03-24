@@ -23,7 +23,13 @@
                 {% if lang_code == "en" %} Законодательство {% endif %}
             </span>
         </li>
-        <div id="div_numbers"></div>
+        <div id="div_numbers">
+
+
+            <img src="{{ url_for('static', filename='images/NG/info_li/number.jpg') }}">
+
+
+        </div>
         <li id="docs">
             <span class="hvr-sink">
                 {% if lang_code == "ru" %} Документы для перевозки {% endif %}

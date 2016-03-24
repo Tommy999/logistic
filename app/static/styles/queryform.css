@@ -30,6 +30,8 @@
 }
 
 #queryform>form>p>input[type="submit"]{
+
+    font-size: 0.5em;
     margin: 0 0 0 40%;
     display: inline-block;
     line-height: 3;

@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/../flask_chat/.idea/flask_chat.iml" filepath="$PROJECT_DIR$/../flask_chat/.idea/flask_chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/logistic.iml" filepath="$PROJECT_DIR$/.idea/logistic.iml" />
       <module fileurl="file://$PROJECT_DIR$/../openmap/.idea/openmap.iml" filepath="$PROJECT_DIR$/../openmap/.idea/openmap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../scripts/.idea/scripts.iml" filepath="$PROJECT_DIR$/../../../scripts/.idea/scripts.iml" />
     </modules>
   </component>
 </project>

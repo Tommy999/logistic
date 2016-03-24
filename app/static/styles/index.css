@@ -1,0 +1,11 @@
+#testC{
+
+    display: block;
+}
+
+#testC>div{
+
+    margin: 1% 15% 1% 45%;
+    width: 200px;
+    height: 150px;
+}
