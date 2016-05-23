@@ -29,9 +29,12 @@
             <div id="info">
                 <div id="languages">
                     <p>
-                        <a id="eng" href="/change_lang?lang=en&cur={{ request.path }}"><img src="{{ url_for('static', filename='images/NG/languages/eng.gif') }}"></a>
+                        <a id="eng"><img src="{{ url_for('static', filename='images/NG/languages/eng.gif') }}"></a>
+                        <!--<a id="eng" href="/change_lang?lang=en&cur={{ request.path }}"><img src="{{ url_for('static', filename='images/NG/languages/eng.gif') }}"></a>-->
+                        <!--<a href="/change_lang?lang=ru&cur={{ request.path }}"><img  src="{{ url_for('static', filename='images/NG/languages/rus.gif') }}"></a>-->
+                        <!--<a href="/change_lang?lang=ua&cur={{ request.path }}"><img  src="{{ url_for('static', filename='images/NG/languages/ukr.gif') }}"></a>-->
                         <a href="/change_lang?lang=ru&cur={{ request.path }}"><img  src="{{ url_for('static', filename='images/NG/languages/rus.gif') }}"></a>
-                        <a href="/change_lang?lang=ua&cur={{ request.path }}"><img  src="{{ url_for('static', filename='images/NG/languages/ukr.gif') }}"></a>
+                        <a><img  src="{{ url_for('static', filename='images/NG/languages/ukr.gif') }}"></a>
                     </p>
                 </div>
                 <div id="contact">

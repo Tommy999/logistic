@@ -2,7 +2,7 @@
 
 //border: solid 1px black;
     margin: 0% 0 5% 10%;
-    width: 75%;
+    width: 85%;
     padding: 0 0 0 0;
 
 }
@@ -24,9 +24,11 @@
 #useful_list>ul>div{
 
     //border: solid 1px black;
-    width: 90%;
+    width: 99%;
+    //height: 100%;
     margin: 1% 0 0% 0;
     display: none;
+
 
 }
 
@@ -94,3 +96,48 @@
     cursor: pointer;
     opacity: 1;
 }
+
+
+#image_wr{
+
+    //height: 100%;
+    overflow:auto;
+}
+#image_cont{
+
+    border: solid 5px #1b200f;
+    border-radius: 8px;
+    width: 85%;
+    float:left;
+    margin:0 0 0 0;
+
+}
+#image_cont img{
+    height: 100%;
+    width: 100%;
+}
+#sq_p{
+    margin:0 1% 0 0;
+    width: 12%;
+    float:right;
+    background: #edffaa;
+}
+#sq_p p{
+
+    cursor: pointer;
+}
+
+#div_law p a{
+
+    text-decoration: none;
+    color:gray;
+    font-weight: bold;
+}
+
+#div_numbers p {
+
+    text-decoration: none;
+    color:gray;
+    font-weight: bold;
+}
+
