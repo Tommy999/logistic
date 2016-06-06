@@ -109,7 +109,7 @@
     border-radius: 8px;
     width: 85%;
     float:left;
-    margin:0 0 0 0;
+    margin:15% 0 0 0;
 
 }
 #image_cont img{
@@ -121,11 +121,14 @@
     width: 12%;
     float:right;
     background: #edffaa;
+    border: solid 2px #1b200f;
+    border-radius: 8px;
 }
 #sq_p p{
 
     cursor: pointer;
 }
+
 
 #div_law p a{
 
@@ -141,3 +144,11 @@
     font-weight: bold;
 }
 
+.clicke{
+
+    color:red;
+}
+.unclicke{
+
+    color:black;
+}

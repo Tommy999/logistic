@@ -1,0 +1,53 @@
+#serv{
+
+//border: solid 1px black;
+    margin: 0% 0 5% 10%;
+    width: 85%;
+    padding: 0 0 0 0;
+
+}
+
+#serv>ul{
+    list-style-image: url(../images/NG/info_li/credits_logo.gif);
+    width: 90%;
+    margin:0 0 0 0;
+}
+
+#serv>ul>li{
+
+    margin: 0% 0 0% 15%;
+    font-size: 16pt;
+
+}
+
+
+#serv>ul>div{
+
+//border: solid 1px black;
+    width: 99%;
+//height: 100%;
+    margin: 1% 0 0% 0;
+    display: none;
+}
+
+#div_auto img{
+    margin: 0 0 0 9%;
+}
+
+#div_cont img{
+    margin: 0 0 0 35%;
+}
+
+#div_cont table{
+    margin: 0 0 0 15%;
+}
+#div_cont table TD, TH{
+
+    border:1px solid black;
+}
+
+#div_zb>ul{
+    list-style-image: none;
+    width: 90%;
+    margin:0 0 0 0;
+}

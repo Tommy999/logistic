@@ -15,13 +15,12 @@ class Config:
 
 
 class DevelopmentConfig(Config):
-    DEBUG = True
     MAIL_SERVER = 'smtp.googlemail.com'
     MAIL_PORT = 587
     MAIL_USE_TLS = True
     MAIL_USE_SSL = False
     MAIL_USERNAME = 'moustachedtom@gmail.com'
-    MAIL_PASSWORD = '23931174Tolian'
+    MAIL_PASSWORD = '23931174'
     CSRF_ENABLED = True
     SECRET_KEY = 'you-will-never-guess'
 

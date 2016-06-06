@@ -1,7 +1,1550 @@
 {% extends "index.html" %}
 
-
 {% block page_content %}
+
+
+<div id="serv">
+
+    <ul>
+        <li id="auto">
+            <span class="hvr-sink">Автомобильные перевозки</span>
+        </li>
+        <div id="div_auto">
+            <p style="font-weight: bold;">Это одно из приоритетных направлений нашей деятельности. Транспортная перевозка в
+                международном сообщении осуществляется грузовым транспортом объемом 86-120 м3.</p>
+            <h4 style="text-align: center;">Виды транспорта</h4>
+            <p class="top10" style="text-align: center;"><strong>Тент 82 куб.м.</strong></p>
+            <p>
+                <img src="{{ url_for('static', filename='images/NG/services/auto_1.gif') }}"></p>
+            <p>Размеры</p>
+            <table class="table table-condensed table-striped">
+                <tbody>
+                <tr>
+                    <td><strong>Длина</strong></td>
+                    <td><strong>Ширина</strong></td>
+                    <td><strong>Высота</strong></td>
+                </tr>
+                <tr>
+                    <td>13,6 м.</td>
+                    <td>2,45 м.</td>
+                    <td>2,45 м.</td>
+                </tr>
+                <tr>
+                    <td><strong><strong>Грузоподъемность</strong>: </strong>20-24 т</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr />
+            <p style="text-align: center;"><strong style="font-size: 14px;">Тент 90 куб.м.</strong></p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/auto_2.gif') }}">
+                </p>
+            <p>Размеры</p>
+            <table class="table table-condensed table-striped">
+                <tbody>
+                <tr>
+                    <td><strong>Длина</strong></td>
+                    <td><strong>Ширина</strong></td>
+                    <td><strong>Высота</strong></td>
+                </tr>
+                <tr>
+                    <td>13,6 м.</td>
+                    <td>2,45 м.</td>
+                    <td>2,60 м.</td>
+                </tr>
+                <tr>
+                    <td><strong><strong>Грузоподъемность</strong>:&nbsp;</strong>20-24 т</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td><strong><strong>Грузовместимость</strong>: </strong>90 куб. м.</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr />
+            <p style="text-align: center;"><strong>JUMBO (Джамбо, юмбо)</strong></p>
+            <p>Тентованый полуприцеп с большой вместимостью. Это достигается за счет специального &laquo;Г&raquo;-образного пола и уменьшенного диаметра колес полуприцепа. Грузоподъемность: до 24 тонн. Полезный объем: 96-125 м.куб.</p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/auto_3.gif') }}"></p>
+            <p>Размеры</p>
+            <table class="table table-responsive table-condensed table-striped">
+                <tbody>
+                <tr>
+                    <td><strong>Длина</strong></td>
+                    <td><strong>Ширина</strong></td>
+                    <td><strong>Высота</strong></td>
+                </tr>
+                <tr>
+                    <td>13,8 м.</td>
+                    <td>2,45 м.</td>
+                    <td>2,45-3,0 м.</td>
+                </tr>
+                <tr>
+                    <td><strong>Грузоподъемность:&nbsp;</strong>20-24 т</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td><strong>Грузовместимость:&nbsp;</strong>96 куб. м.</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr />
+            <p style="text-align: center;"><strong>110-ка, 120-ка, сцепка</strong></p>
+            <p>Так называют грузовые автомобили, позволяющие перевезти максимальный объем (110, 120 кубов) груза по дорогам общего назначения без специальных разрешений. Этот автопоезд (сцепка), в отличие от еврофуры, состоит из автомобиля и прицепа одинаковых или разных по объему и грузоподъемности, это зависит от конструктивных особенностей конкретного транспортного средства. При этом суммарные характеристики остаются 120/110 куб./20 т.</p>
+            <p style="text-align: center;"><strong>Тент 110 куб.м.</strong></p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/auto_4.gif') }}"></p>
+            <table class="table table-responsive table-condensed table-striped">
+                <tbody>
+                <tr>
+                    <td><strong>Размеры</strong></td>
+                    <td><strong>Длина</strong></td>
+                    <td><strong>Ширина</strong></td>
+                    <td><strong>Высота</strong></td>
+                </tr>
+                <tr>
+                    <td>Внутренние п/пр</td>
+                    <td>7,1 м.</td>
+                    <td>2,45 м.</td>
+                    <td>2,95 м.</td>
+                </tr>
+                <tr>
+                    <td>Внутренние прицеп</td>
+                    <td>8,0 м.</td>
+                    <td>2,45 м.</td>
+                    <td>3,0 м.</td>
+                </tr>
+                <tr>
+                    <td><strong><strong>Грузовместимость:&nbsp;</strong></strong>110 куб. м.</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr />
+            <p style="text-align: center;"><strong style="font-size: 14px;">Тент 120 куб.м.</strong></p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/auto_5.gif') }}"></p>
+            <table class="table table-responsive table-condensed table-striped">
+                <tbody>
+                <tr>
+                    <td><strong>Размеры</strong></td>
+                    <td><strong>Длина</strong></td>
+                    <td><strong>Ширина</strong></td>
+                    <td><strong>Высота</strong></td>
+                </tr>
+                <tr>
+                    <td>Внутренние п/пр</td>
+                    <td>8,0 м.</td>
+                    <td>2,45 м.</td>
+                    <td>2,95 м.</td>
+                </tr>
+                <tr>
+                    <td>Внутренние прицеп</td>
+                    <td>8,0 м.</td>
+                    <td>2,45 м.</td>
+                    <td>3,0 м.</td>
+                </tr>
+                <tr>
+                    <td><strong>Грузовместимость:&nbsp;</strong>120 куб. м.</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr />
+            <h4>Рефрижераторы</h4>
+            <p>Рефрижератор, точнее - рефрижераторный полуприцеп - это транспортное средство, оснащенное холодильным агрегатом и способное поддерживать внутри кузова температурный режим в диапазоне от +12&deg;C до -20&deg;C включительно.</p>
+            <p>Задача эксплуатации рефрижераторов состоит в создании и поддержании заданных температурно-влажностных режимов в охлаждаемом кузове во время хранения и транспортировки груза при условии безопасной работы оборудования.</p>
+            <p>Полуприцепы-рефрижераторы являются необходимым звеном непрерывной холодильной цепи, поддерживая необходимую для хранения груза температуру при его последовательном перемещении от одного звена к другому. Значение автотранспортных рефрижераторов особенно велико для регионов со значительными расстояниями между точками производства грузов, требующих охлаждения или заморозки, и местами их дальнейшей обработки, хранения или потребления.</p>
+            <p>В отличие от изотермических полуприцепов с теплоизолированными кузовами, рефрижераторы оснащены холодильной установкой с системой автоматического поддержания низкой температуры в кузове.</p>
+            <p><strong>Классификация рефрижераторных полуприцепов</strong></p>
+            <p>В зависимости от температурного режима внутри пустого кузова (при средней температуре среды снаружи кузова от +30&deg;C до -30&deg;C ) и назначения эксплуатации, полуприцепы-рефрижераторы подразделяются, на следующие классы:</p>
+            <table class="table table-condensed table-striped">
+                <tbody>
+                <tr>
+                    <td><strong>Класс рефрижератора</strong></td>
+                    <td><strong>Температурный режим</strong></td>
+                </tr>
+                <tr>
+                    <td>Класс А</td>
+                    <td>от +12&deg;C до 0&deg;C</td>
+                </tr>
+                <tr>
+                    <td>Класс B</td>
+                    <td>от +12&deg;C до -10&deg;C</td>
+                </tr>
+                <tr>
+                    <td>Класс C</td>
+                    <td>от +12&deg;C до -20&deg;C</td>
+                </tr>
+                <tr>
+                    <td>Класс D</td>
+                    <td>менее или равно +2&deg;C</td>
+                </tr>
+                <tr>
+                    <td>Класс E</td>
+                    <td>менее или равно -10&deg;C</td>
+                </tr>
+                <tr>
+                    <td>Класс F</td>
+                    <td>менее или равно -20&deg;C</td>
+                </tr>
+                </tbody>
+            </table>
+            <p>Работа холодильного агрегата рефрижератора должна обеспечивать необходимые температурные параметры в кузове полуприцепа в течение не менее 12 часов, без проведения дополнительного обслуживания установки. Данная классификация установлена европейскими правилами перевозки скоропортящихся грузов АТР Europe.</p>
+            <p><strong>Сертификация рефрижераторных полуприцепов</strong></p>
+            <p>Сертификация рефрижераторов производится в соответствии с нормами ATP, принятыми Женевским соглашением от 01.09.1970г. о международных перевозках скоропортящихся пищевых продуктов и специальных транспортных средствах, предназначенных для данных перевозок. Приняты маркировки: FRC, FRB, FRA, FNA, соответствующие рефрижераторам классов C, B, A с усиленной изоляцией кузова и класса A с нормальной изоляцией.</p>
+            <p>Наиболее распространенным и популярным типом полуприцепов-рефрижераторов является класс FRC.</p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/auto_6.jpeg') }}"></p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/auto_7.jpeg') }}"></p>
+            <p style="text-align: center;"><strong>Крюки для транспортировки мясных полутуш</strong></p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/auto_8.jpeg') }}"></p>
+            <p style="text-align: center;"><strong>Система дуплекс для транспортировки в 2х режимах</strong></p>
+            <p>&nbsp;</p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/auto_9.jpeg') }}"></p>
+            <p style="text-align: center;"><strong>Рефрижератор сцепка 110-115 м3</strong></p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/auto_10.jpeg') }}"></p>
+            <hr />
+            <p style="text-align: center;"><span style="color: #ed9400; font-size: 14px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; line-height: normal;">Транспорт для перевозки негабаритных грузов</span></p>
+            <p style="text-align: center;">3 х осная платформа для перевозки техники</p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/auto_11.jpeg') }}"></p>
+            <p style="text-align: center;">4х осная платформа с тентом для техники</p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/auto_12.jpeg') }}"></p>
+            <p style="text-align: center;">4х осная платформа для негабаритных грузов</p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/auto_13.jpeg') }}"></p>
+            <p style="text-align: center;">5 осная раздвижная платформа для негабаритных грузов</p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/auto_14.jpeg') }}"></p>
+            <p style="text-align: center;">6 осная раздвижная платформа для негабаритных грузов</p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/auto_15.jpeg') }}"></p>
+            <p style="text-align: center;">8 осная раздвижная платформа для негабаритных грузов</p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/auto_16.jpeg') }}"></p>
+            <p style="text-align: center;">10 осная раздвижная платформа для негабаритных грузов</p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/auto_17.jpeg') }}"></p>
+            <p style="text-align: center;">Полуприцеп с поворотным столом</p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/auto_18.jpeg') }}"></p>
+            <p style="text-align: center;">Прицеп для перевозки супер тяжелых грузов</p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/auto_19.jpeg') }}"></p>
+            <p>&nbsp;</p>
+
+        </div>
+
+        <li id="sea">
+            <span class="hvr-sink">Морские перевозки</span>
+        </li>
+        <div id="div_sea">
+            <p>Это одно из ответственных направлений нашей деятельности. Транспортная перевозка в
+                международном сообщении осуществляется грузовым транспортом, фурами объемом 86-120 м3.</p>
+        </div>
+
+        <li id="cont">
+            <span class="hvr-sink">Контейнерные перевозки</span>
+        </li>
+        <div id="div_cont">
+            Благодаря развитой логистике и наличию широкого диапазона железнодорожных вагонов,
+            наша компания заметно выделяется в сфере ЖД перевозок грузов.
+            <p style="text-align: center;"><strong>20-ти футовый стандартный контейнер</strong></p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/cont_1.jpg') }}"></p>
+            <p>Контейнер общего назначения.(ISO 1496/1): Контейнер полностью закрытый и пылеводонепроницаемый, имеющий жесткую крышу, жесткие боковые стенки, жесткие торцевые стенки, имеющий хотя бы в одной торцевой стенке двери и предназначенный для перевозки и хранения широкой номенклатуры грузов.</p>
+            <table class="table table-condensed table-striped">
+                <tbody>
+                <tr>
+                    <td valign="top">
+                        <p><strong>Размеры</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Длина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Ширина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Высота</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внешние</p>
+                    </td>
+                    <td valign="top">
+                        <p>20' = 6096 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 9.25" = 2370 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' 6" = 2591 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внутренние</p>
+                    </td>
+                    <td valign="top">
+                        <p>19' 5.75" = 5935 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 8" = 2335 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 9.75" = 2383 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Двери</p>
+                    </td>
+                    <td valign="top">
+                        <p align="center">&mdash;</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 8" = 2335 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 6.25" 2292 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" valign="top">
+                        <p><strong>Вес</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. брутто</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>52910 фунт = 24000 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Тара</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>4585 фунт = 2080 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. загрузка</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>48325 фунт = 21920 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Грузовместимость (объём)</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>1197.25 фут<span>3</span>&nbsp;= 34 м<span>3</span></p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <p class="top20" style="text-align: center;"><strong>40-ка футовый стандартный контейнер</strong></p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/cont_2.jpg') }}"></p>
+            <p>Контейнер общего назначения.(ISO 1496/1): Контейнер полностью закрытый и пылеводонепроницаемый, имеющий жесткую крышу, жесткие боковые стенки, жесткие торцевые стенки, имеющий хотя бы в одной торцевой стенке двери и предназначенный для перевозки и хранения широкой номенклатуры грузов.</p>
+            <table class="table table-condensed table-striped">
+                <tbody>
+                <tr>
+                    <td valign="top">
+                        <p><strong>Размеры</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Длина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Ширина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Высота</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внешние</p>
+                    </td>
+                    <td valign="top">
+                        <p>40' = 12192 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' = 2438 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' 6" = 2591 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внутренние</p>
+                    </td>
+                    <td valign="top">
+                        <p>39' 5.25" = 12032 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 8.625" = 2352 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 9.25" = 2385 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Двери</p>
+                    </td>
+                    <td valign="top">
+                        <p align="center">&mdash;</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 8.25" = 2343 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 5.75" = 2280 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" valign="top">
+                        <p><strong>Вес</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. Брутто</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>66139 фунт = 30480 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Тара</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>8380 фунт = 3800 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. загрузка</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>57759 фунт = 26600 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Грузовместимость (объём)</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>2385 фут<span>3</span>&nbsp;= 67.5 м<span>3</span></p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <p class="top20" style="text-align: center;"><strong>40-ка футовый "high cube" контейнер (увеличенной вместимости)</strong></p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/cont_3.jpg') }}"></p>
+            <p>Контейнер общего назначения.(ISO 1496/1): Контейнер полностью закрытый и пылеводонепроницаемый, имеющий жесткую крышу, жесткие боковые стенки, жесткие торцевые стенки, имеющий хотя бы в одной торцевой стенке двери и предназначенный для перевозки и хранения широкой номенклатуры грузов.</p>
+            <table class="table table-condensed table-striped">
+                <tbody>
+                <tr>
+                    <td valign="top">
+                        <p><strong>Размеры</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Длина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Ширина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Высота</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внешние</p>
+                    </td>
+                    <td valign="top">
+                        <p>40' = 12190 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' 0" = 2438 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>9' 6" = 2896 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внутренние</p>
+                    </td>
+                    <td valign="top">
+                        <p>39' 4" = 12000 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 7" = 2311 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' 9" = 2650 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Двери</p>
+                    </td>
+                    <td valign="top">
+                        <p align="center">&mdash;</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 6" = 2280 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' 5" = 2560 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" valign="top">
+                        <p><strong>Вес</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. Брутто</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>68008 фунт = 30848 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Тара</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>8598 фунт = 3900 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. загрузка</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>58598 фунт = 26580 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Грузовместимость (объём)</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>2660 фут<span>3</span>&nbsp;= 75.3 м<span>3</span></p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <p class="top20" style="text-align: center;"><strong>20-ти футовый Open Top контейнер</strong></p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/cont_4.jpg') }}"></p>
+            <p>Контейнер открытый сверху [ISO 1496/1]: Контейнер, сходный во всех отношениях с контейнером общего назначения, за исключением того, что у него нет жесткой крыши, но может быть гибкий раздвижной или съемный чехол, сделанный например, из брезента или пластика, или армированного пластического материала и обычно поддерживаемый откидными или съемными балками крыши. Такие контейнеры могут иметь откидные или съемные верхние торцевые поперечные элементы над своими торцевыми дверями.</p>
+            <table class="table table-condensed table-striped">
+                <tbody>
+                <tr>
+                    <td valign="top">
+                        <p><strong>Размеры</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Длина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Ширина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Высота</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внешние</p>
+                    </td>
+                    <td valign="top">
+                        <p>20' = 6096 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' = 2438 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' 6" = 2591 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внутренние</p>
+                    </td>
+                    <td valign="top">
+                        <p>19' 4.3" = 5902 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 4.1" = 2240 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 8.5" = 2352 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Двери</p>
+                    </td>
+                    <td valign="top">
+                        <p align="center">&mdash;</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 7.9" = 2335 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 4.1" = 2240 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" valign="top">
+                        <p><strong>Вес</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. Брутто</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>52910 фунт = 24000 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Тара</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>5380 фунт = 2440 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. загрузка</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>475205 фунт = 21560 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Грузовместимость (объём)</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>1133 фут<span>3</span>&nbsp;= 32 м<span>3</span></p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <p class="top20" style="text-align: center;"><strong>40-ка футовый Open Top контейнер</strong></p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/cont_5.jpg') }}"></p>
+            <p>Контейнер открытый сверху [ISO 1496/1]: Контейнер, сходный во всех отношениях с контейнером общего назначения, за исключением того, что у него нет жесткой крыши, но может быть гибкий раздвижной или съемный чехол, сделанный например, из брезента или пластика, или армированного пластического материала и обычно поддерживаемый откидными или съемными балками крыши. Такие контейнеры могут иметь откидные или съемные верхние торцевые поперечные элементы над своими торцевыми дверями.</p>
+            <table class="table table-condensed table-striped">
+                <tbody>
+                <tr>
+                    <td valign="top">
+                        <p><strong>Размеры</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Длина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Ширина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Высота</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внешние</p>
+                    </td>
+                    <td valign="top">
+                        <p>40' = 12192 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' = 2438 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' 6" = 2591 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внутренние</p>
+                    </td>
+                    <td valign="top">
+                        <p>39' 5.2" = 12021 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 8.4" = 2350 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 7.7" = 2330 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Двери</p>
+                    </td>
+                    <td valign="top">
+                        <p align="center">&mdash;</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 8" = 2338 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 3.8" = 2234 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" valign="top">
+                        <p><strong>Вес</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. Брутто</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>79370 фунт = 36000 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Тара</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>9760 фунт = 4430 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. загрузка</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>69600 фунт = 31570 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Грузовместимость (объём)</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>2355 фут<span>3</span>&nbsp;= 66.7 м<span>3</span></p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <p class="top20" style="text-align: center;"><strong>20-ти футовый Flatrack контейнер</strong></p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/cont_6.jpg') }}"></p>
+            <p>Контейнер, не имеющий боковых стенок, но имеющий такое же основание, как контейнер-платформа. Этот общий термин применим для любого универсального контейнера, не имеющего жестких боковых стенок или заменяющих их рам, способных выдерживать все нагрузки, которые может нести или передавать боковая стенка контейнера общего назначения, и имеющего по этой причине раму основания, подобную раме контейнера-платформы.</p>
+            <table class="table table-condensed table-striped">
+                <tbody>
+                <tr>
+                    <td valign="top">
+                        <p><strong>Размеры</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Длина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Ширина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Высота</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внешние</p>
+                    </td>
+                    <td valign="top">
+                        <p>20' = 6096 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' = 2438 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' 6" = 2591 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внутренние</p>
+                    </td>
+                    <td valign="top">
+                        <p>18' 9.4" = 5727 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 4.1" = 2240 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 1.3" = 2170 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Двери</p>
+                    </td>
+                    <td valign="top">
+                        <p align="center">&mdash;</p>
+                    </td>
+                    <td valign="top">
+                        <p align="center">&mdash;</p>
+                    </td>
+                    <td valign="top">
+                        <p align="center">&mdash;</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" valign="top">
+                        <p><strong>Вес</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. Брутто</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>66140 фунт = 30480 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Тара</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>500 фунт = 2950 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. загрузка</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>60690 фунт = 27530 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Грузовместимость (объём)</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>986 фут<span>3</span>&nbsp;= 27.9 м<span>3</span></p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <p class="top20" style="text-align: center;"><strong>40-ка футовый Flatrack контейнер</strong></p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/cont_7.jpg') }}"></p>
+            <p>Контейнер, не имеющий боковых стенок, но имеющий такое же основание, как контейнер-платформа. Этот общий термин применим для любого универсального контейнера, не имеющего жестких боковых стенок или заменяющих их рам, способных выдерживать все нагрузки, которые может нести или передавать боковая стенка контейнера общего назначения, и имеющего по этой причине раму основания, подобную раме контейнера-платформы.</p>
+            <table class="table table-condensed table-striped">
+                <tbody>
+                <tr>
+                    <td valign="top">
+                        <p><strong>Размеры</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Длина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Ширина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Высота</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внешние</p>
+                    </td>
+                    <td valign="top">
+                        <p>20' = 6096 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' = 2438 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' 6" = 2591 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внутренние</p>
+                    </td>
+                    <td valign="top">
+                        <p>18' 9.4" = 5727 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 4.1" = 2240 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 1.3" = 2170 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Двери</p>
+                    </td>
+                    <td valign="top">
+                        <p align="center">&mdash;</p>
+                    </td>
+                    <td valign="top">
+                        <p align="center">&mdash;</p>
+                    </td>
+                    <td valign="top">
+                        <p align="center">&mdash;</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" valign="top">
+                        <p><strong>Вес</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. Брутто</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>66140 фунт = 30480 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Тара</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>500 фунт = 2950 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. загрузка</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>60690 фунт = 27530 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Грузовместимость (объём)</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>986 фут<span>3</span>&nbsp;= 27.9 м<span>3</span></p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <p class="top20" style="text-align: center;"><strong>20-ти футовый рефрижераторный контейнер</strong></p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/cont_8.jpg') }}"></p>
+            <p>Рефрижераторный контейнер с машинным охлаждением: Изотермический контейнер, имеющий холодильную установку (механический компрессор, абсорбционную установку и т.д.).</p>
+            <table class="table table-condensed table-striped">
+                <tbody>
+                <tr>
+                    <td valign="top">
+                        <p><strong>Размеры</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Длина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Ширина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Высота</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внешние</p>
+                    </td>
+                    <td valign="top">
+                        <p>20' = 6096 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 9.25" = 2370 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' 6" = 2591 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внутренние</p>
+                    </td>
+                    <td valign="top">
+                        <p>17' 10.8" = 5455 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 4.98" = 2260 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 5.568" = 2275 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Двери</p>
+                    </td>
+                    <td valign="top">
+                        <p align="center">&mdash;</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 4" = 2237 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 4.98" = 2260 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" valign="top">
+                        <p><strong>Вес</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. Брутто</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>59 520 фунт = 27000 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Тара</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>6 724 фунт = 3050 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. загрузка</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>52 800 фунт = 23950 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Грузовместимость (объём)</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>988.8 фут<span>3</span>&nbsp;= 28.0 м<span>3</span></p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <p class="top20" style="text-align: center;"><strong>40-ка футовый рефрижераторный контейнер</strong></p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/cont_9.jpg') }}"></p>
+            <p>Рефрижераторный контейнер с машинным охлаждением: Изотермический контейнер, имеющий холодильную установку (механический компрессор, абсорбционную установку и т.д.).</p>
+            <table class="table table-condensed table-striped">
+                <tbody>
+                <tr>
+                    <td valign="top">
+                        <p><strong>Размеры</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Длина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Ширина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Высота</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внешние</p>
+                    </td>
+                    <td valign="top">
+                        <p>40' = 12192 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' = 2438 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' 6" = 2591 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внутренние</p>
+                    </td>
+                    <td valign="top">
+                        <p>37' 11" = 11555 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 6" = 2286 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 5.76" = 2280 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Двери</p>
+                    </td>
+                    <td valign="top">
+                        <p align="center">&mdash;</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 6" = 2285 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 4.38" = 2245 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" valign="top">
+                        <p><strong>Вес</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. Брутто</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>67200 фунт = 30480 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Тара</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>9634 фунт = 4370 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. загрузка</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>57560 фунт = 26110 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Грузовместимость (объём)</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>2126 фут<span>3</span>&nbsp;= 60.2 м<span>3</span></p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <p class="top20" style="text-align: center;"><strong>20-ти футовый герметичный контейнер</strong></p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/cont_10.jpg') }}"></p>
+            <p>Герметичные контейнеры широко используются в торговле для перевозки товаров, требующих поддержания постоянной температуры в течение всего времени перевозки.</p>
+            <table class="table table-condensed table-striped">
+                <tbody>
+                <tr>
+                    <td valign="top">
+                        <p><strong>Размеры</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Длина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Ширина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Высота</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внешние</p>
+                    </td>
+                    <td valign="top">
+                        <p>19' 10.5" = 6058 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' = 2438 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' = 2438 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внутренние</p>
+                    </td>
+                    <td valign="top">
+                        <p>18' 6.5" = 5499 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 4" = 2237 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>6' 10" = 2083 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Двери</p>
+                    </td>
+                    <td valign="top">
+                        <p align="center">&mdash;</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 4" = 2237 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>6' 10" = 2083 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" valign="top">
+                        <p><strong>Вес</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. Брутто</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>44800 фунт = 16720 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Тара</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>5600 фунт = 2540 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. загрузка</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>39200 фунт = 17780 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Грузовместимость (объём)</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>929 фут<span>3</span>&nbsp;= 26.31 м<span>3</span></p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <p class="top20" style="text-align: center;"><strong>20-ти футовый вентилируемый контейнер</strong></p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/cont_11.jpg') }}"></p>
+            <p>Вентилируемый контейнер схож по размерам со стандартным 20-ти футовым контейнером. Такие контейнеры обладают системой естественной или принудительной вентиляции и предназначены для перевозки грузов, требующих особых условий перевозки, обеспечивающих доступ воздуха и удаление из герметичного контейнера конденсата и неопасных испарений.</p>
+            <table class="table table-condensed table-striped">
+                <tbody>
+                <tr>
+                    <td valign="top">
+                        <p><strong>Размеры</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Длина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Ширина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Высота</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внешние</p>
+                    </td>
+                    <td valign="top">
+                        <p>19' 10.92" = 6068 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' = 2438 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' 6" = 2591 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внутренние</p>
+                    </td>
+                    <td valign="top">
+                        <p>19' 4.32" = 5900 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 7.4" = 2323 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 9.2" = 2367 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Двери</p>
+                    </td>
+                    <td valign="top">
+                        <p align="center">&mdash;</p>
+                    </td>
+                    <td valign="top">
+                        <p align="center">&mdash;</p>
+                    </td>
+                    <td valign="top">
+                        <p align="center">&mdash;</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" valign="top">
+                        <p><strong>Вес</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. Брутто</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>24000 фунт = 10890 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Тара</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>2650 фунт = 1202 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. загрузка</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>21350 фунт = 9684 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Грузовместимость (объём)</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p align="center">&mdash;</p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <p class="top20" style="text-align: center;"><strong>20-ти футовый контейнер для насыпных грузов</strong></p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/cont_12.jpg') }}"></p>
+            <p>Контейнер полностью закрытый и пылеводонепроницаемый, имеющий жесткую крышу, жесткие боковые стенки, жесткие торцевые стенки, имеющий хотя бы в одной торцевой стенке двери и предназначенный для перевозки и хранения широкой номенклатуры грузов.</p>
+            <table class="table table-condensed table-striped">
+                <tbody>
+                <tr>
+                    <td valign="top">
+                        <p><strong>Размеры</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Длина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Ширина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Высота</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внешние</p>
+                    </td>
+                    <td valign="top">
+                        <p>19' 10.92" = 6068 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' = 2438 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' 6" = 2591 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внутренние</p>
+                    </td>
+                    <td valign="top">
+                        <p>19' 1.8" = 5838 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 9.1" = 2366 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 9.4" = 2374 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Двери</p>
+                    </td>
+                    <td valign="top">
+                        <p align="center">&mdash;</p>
+                    </td>
+                    <td valign="top">
+                        <p>7' 0.4" = 2144 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>280 мм x 300 мм = 11" x 1'</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Люки</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>диаметр 1' 7.68" = 500 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" valign="top">
+                        <p><strong>Вес</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. Брутто</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>61800 фунт = 28030 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Тара</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>5600 фунт = 2540 кг</p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <p class="top20" style="text-align: center;"><strong>Контейнер танк</strong></p>
+            <p><img src="{{ url_for('static', filename='images/NG/services/cont_13.jpg') }}"></p>
+            <p>Контейнер танк предназначен для перевозки жидких химических и пищевых продуктов, а также сжиженных газов тремя видами транспорта: водным (морским или речным), железнодорожным и автомобильным. Перевозка в танк-контейнерах осуществляется по технологии &laquo;от дверей до дверей&raquo; без промежуточного перелива продукта при смене вида транспорта, что обеспечивает повышенную безопасность перевозки и сохранность перевозимого груза.</p>
+            <table class="table table-condensed table-striped">
+                <tbody>
+                <tr>
+                    <td valign="top">
+                        <p><strong>Размеры</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Длина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Ширина</strong></p>
+                    </td>
+                    <td valign="top">
+                        <p><strong>Высота</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Внешние</p>
+                    </td>
+                    <td valign="top">
+                        <p>19' 10.92" = 6068 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' = 2438 мм</p>
+                    </td>
+                    <td valign="top">
+                        <p>8' 6" = 2591 мм</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" valign="top">
+                        <p><strong>Вес</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Тара</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>61800 фунт = 28030 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Макс. загрузка</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>68340 фунт = 31000 кг</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top">
+                        <p>Грузовместимость (объём)</p>
+                    </td>
+                    <td colspan="2" valign="top">
+                        <p>24000 литров</p>
+                        <div>&nbsp;</div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+
+
+        </div>
+
+        <li id="zb">
+            <span class="hvr-sink">Сборные грузы</span>
+        </li>
+        <div id="div_zb">
+            <h2 style="text-align: left;">Что такое сборные грузы и чем они выгодны</h2>
+            <p style="text-align: left;">Представьте, что вы только начинаете международную деятельность, и пока закупаете товары небольшими партиями, и они не могут заполнить даже один полный контейнер. Или, к примеру, в стандартный контейнер помещается 30 единиц товара, а требуется перевезти 100. Таким образом, вы сможете заполнить три контейнера, а четвертый будет заполнен только частично. Если бы перевозки сборного груза как услуги не существовало, вам пришлось бы оплачивать неполный контейнер точно так же, как и заполненный, потому что транспортные компании взимают плату поконтейнерно. Но на сегодняшний день доставка сборных грузов – востребованная услуга, и компания Profi Cargo Service предоставляет ее по основным направлениям своей работы.</p>
+            <h2 style="text-align: left;">Как осуществляется перевозка сборных грузов</h2>
+            <p style="text-align: left;">В организационном и техническом плане доставка сборного груза гораздо сложнее обычной доставки. Это объясняется принципами оформления и транспортировки сборных грузов из Европы или другого региона, а также определенной материальной базой. Для того чтобы доставка сборных грузов в Украину была быстрой и надежной, компания Profi Cargo Service обеспечивает:</p>
+            <ul style="list-style-type: circle;">
+                <li style="text-align: left;">наличие специальных консолидационных складов на территории стран, откуда осуществляются грузоперевозки сборного груза;</li>
+                <li style="text-align: left;">подготовленный и опытный персонал, который сможет быстро и безошибочно сформировать сборные грузы, правильно их промаркировать и отправить их по назначению;</li>
+                <li style="text-align: left;">оформление всех необходимых документов для беспрепятственного прохождения границ, таможенных служб, а также для безошибочной идентификации грузов по прибытии.</li>
+            </ul>
+            <h2 style="text-align: left;">В чем основные выгоды доставки сборного груза</h2>
+            <p style="text-align: left;">Конечно, перевозка сборных грузов изначально была разработана как услуга, которая позволяет экономить. Причем это экономия как для заказчика, так и для перевозчика: можно перевезти больше груза за один раз, оптимизируется использование полезных площадей. Экономия во время перевозки сборного груза может достигать 30-40 процентов от общей стоимости перевозки, что достаточно неплохо, согласитесь.</p>
+            <p style="text-align: left;">Однако сниженная стоимость грузоперевозки сборного груза – не единственное преимущество. Благодаря данной услуге заказчик может оптимизировать время доставки грузов, поскольку если есть возможность привести сразу все партии товара, не отправляя их по одной – консолидационный склад такое позволяет. Кроме того, часто перевозка сборных грузов осуществляется «до двери», что несомненно удобно для клиента.</p>
+            <h3 style="text-align: left;">Механизм доставки сборных грузов от нашей компании</h3>
+            <p style="text-align: left;">Грузоперевозки сборных грузов – это четкая последовательность действий, которые в комплексе позволяют получить надежную и быструю доставку вашего товара. Если какой-то из элементов упустить, нарушится все схема. Стандартно перевозки сборного груза состоят из таких этапов:</p>
+            <ul style="text-align: left;">
+                <li>поступление грузов на консолидационный склад;</li>
+                <li>обработка поступивших грузов, формирование сборной машины или контейнера;</li>
+                <li>оформление всех документов, которые потребуются для транспортировки;</li>
+                <li>отправка сборного груза и его доставка заказчику.</li>
+            </ul>
+            <h3 style="text-align: left;">Сборные грузы из Европы – наиболее востребованное направление</h3>
+            <p style="text-align: left;">Наиболее часто клиенты заказывают доставку сборных грузов из Европы. Это связано с тем, что товарооборот между Украиной и ЕС постоянно растет. Для того чтобы удовлетворить растущий спрос, наша компания&nbsp;имеет консолидационные склады в Польше, Германии, Италии,&nbsp;где формируются все сборные грузы из Европы. И уже потом, когда они сформированы, отправляются своим заказчикам. Это выгодно для всех сторон, задействованных в доставке.</p>
+            <p style="text-align: left;">Также востребованным направлением является доставка сборных грузов из стран Азии – Китая, Индии, Таиланда, Вьетнама, Кореи, других стран. Для азиатского направления нашей компанией разработан специальный маршрут по срокам и цене для доставки сборных грузов.</p>
+
+        </div>
+    </ul>
+</div>
+
+
+
 
 <script>
     $(document).ready(function(){
@@ -13,6 +1556,29 @@
         $('#but5').addClass( "notClicked" );
         $('#but6').addClass( "notClicked" );
 
+
+    });
+
+
+    $('#auto').click(function(event){
+
+        $('#div_auto').toggle( "blind" );
+
+    });
+
+    $('#sea').click(function(event){
+
+        $('#div_sea').toggle( "blind" );
+
+    });
+    $('#cont').click(function(event){
+
+        $('#div_cont').toggle( "blind" );
+
+    });
+    $('#zb').click(function(event){
+
+        $('#div_zb').toggle( "blind" );
 
     });
 </script>

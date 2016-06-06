@@ -1,0 +1,23 @@
+#con>p{
+    width: 15%;
+    margin: 0 7% 0% 0%;
+    float:left;
+}
+
+#con{
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14pt;
+    color:#40471c;
+    margin: 0 0 5% 10%;
+
+}
+#con ul{
+    list-style: none;
+}
+#con img{
+    //width: 2.5%;
+    //height: 2.5%;
+    margin: 0 1% 0 0;
+}

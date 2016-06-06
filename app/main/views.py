@@ -27,8 +27,9 @@ def services(lang_code):
 def querypage(lang_code):
 
     if request.method == 'POST':
+        print 'adadfasdfasdf'
         send_email(request.form)
-        return redirect('/about')
+        return redirect(url_for('index'))
     return render_template('querypage.html', lang_code=lang_code)
 
 

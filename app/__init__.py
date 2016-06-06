@@ -2,7 +2,7 @@ from flask import Flask, render_template
 from flask.ext.bootstrap import Bootstrap
 from flask.ext.mail import Mail
 from flask.ext.moment import Moment
-from config_short import DevelopmentConfig
+from config import DevelopmentConfig
 
 
 bootstrap = Bootstrap()
